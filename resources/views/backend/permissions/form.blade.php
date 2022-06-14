@@ -24,6 +24,10 @@
 </div>
 
 
+
+
+
+
 @section('validation')
     <script type="text/javascript">
         $(document).ready(function () {
@@ -54,13 +58,6 @@
                     $(element).removeClass('is-invalid');
                 }
             });
-           /* $('form').ajaxForm({
-                success:function() {
-                    $('form').resetForm();
-                }
-            })*/
-
-
         });
     </script>
 @endsection
