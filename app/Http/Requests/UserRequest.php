@@ -29,7 +29,7 @@ class UserRequest extends FormRequest
             'gender'=>'required|in:Male,Female',
             'phone'=>'required',
             'status'=>'required',
-            'rule_id'=>'required',
+            'role_id'=>'required',
             'email'=>'required:email',
             'password'=>'nullable',
             'confirm_password'=>'nullable|same:password',

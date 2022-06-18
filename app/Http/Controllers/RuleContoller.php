@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\RuleRequest;
+use App\Models\Permission;
 use App\Models\Role;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -38,7 +39,8 @@ class RuleContoller extends Controller
      */
     public function create()
     {
-        return view('backend.rules.create');
+        $permissions = Permission::all();
+        return view('backend.rules.create',compact('permissions'));
     }
 
     /**
@@ -49,8 +51,11 @@ class RuleContoller extends Controller
      */
     public function store(RuleRequest $request)
     {
-        Role::create($request->all());
-        return redirect()->back()->with('success', 'Rule save successful!');
+        $role=Role::create($request->all());
+
+        $permission = Permission::find($request->permission_ids);
+        $role->permissions()->sync($permission);
+        return redirect()->back()->with('success', 'Role save successful!');
     }
 
     /**
@@ -73,7 +78,8 @@ class RuleContoller extends Controller
     public function edit($id)
     {
         $rule = Role::find($id);
-        return view('backend.rules.edit',compact('rule'));
+        $permissions = Permission::all();
+        return view('backend.rules.edit',compact('rule','permissions'));
     }
 
     /**
@@ -85,8 +91,11 @@ class RuleContoller extends Controller
      */
     public function update(RuleRequest $request, $id)
     {
-        $rule = Role::find($id)->update($request->all());
-        return redirect()->back()->with('success', 'Rule save successful!');
+        $rule = Role::find($id);
+        $permission = Permission::find($request->permission_ids);
+        $rule->permissions()->sync($permission);
+        $rule->update($request->all());
+        return redirect()->back()->with('success', 'Role save successful!');
     }
 
     /**
@@ -97,7 +106,10 @@ class RuleContoller extends Controller
      */
     public function destroy($id)
     {
-        $rule = Role::destroy($id);
-        return redirect()->back()->with('success', 'Rule delete successful!');
+        $role = Role::find($id);
+        if ($role)
+            $role->delete();
+            $role->permissions()->detach();
+        return redirect()->back()->with('success', 'Role delete successful!');
     }
 }

@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="{!! asset("assets/admin/dist/css/adminlte.min.css")!!}" >
     <link rel="stylesheet" href="{!! asset("assets/admin/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css")!!}">
     <link rel="stylesheet" href="{!! asset("assets/admin/plugins/datatables-responsive/css/responsive.bootstrap4.min.css")!!}">
-
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="{!! asset('assets/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css') !!}">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -43,5 +44,14 @@
 <script src="{!! asset('js/jquery.form.js') !!}"></script>
 @yield('validation')
 @yield('datatable')
+
+<script>
+    $(document).ready(function (){
+        if ($(".nav-item .nav .nav-item .nav-link").hasClass("active")){
+           $(this).closest('.nav-item ').addClass('menu-open')
+           $(this).closest('.nav-item .nav-link').addClass('menu-open')
+        }
+    })
+</script>
 </body>
 </html>

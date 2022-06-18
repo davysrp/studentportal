@@ -24,6 +24,25 @@
 </div>
 
 
+
+@foreach($permissions as $permission)
+    <?php
+    $count = 0;
+    if (isset($rule))
+        $count = \Illuminate\Support\Facades\DB::table('roles_permissions')->where('permission_id',$permission->id)->where('role_id',$rule->id)->count();
+    ?>
+
+<div class="form-group clearfix">
+    <div class="icheck-primary d-inline">
+        <input type="checkbox" id="{!! $permission->id !!}" name="permission_ids[]" value="{!! $permission->id !!}" @if($count>0) checked @endif>
+        <label for="{!! $permission->id !!}">
+           {!! $permission->name !!}
+        </label>
+    </div>
+</div>
+
+
+@endforeach
 @section('validation')
     <script type="text/javascript">
         $(document).ready(function () {

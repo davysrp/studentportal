@@ -12,7 +12,6 @@
             <th>Gender</th>
             <th>Phone</th>
             <th>Email</th>
-            <th>Rule</th>
             <th>Status</th>
             <th>Action</th>
         </tr>
@@ -34,7 +33,6 @@
                     {data: 'gender', name: 'gender'},
                     {data: 'phone', name: 'phone'},
                     {data: 'email', name: 'email'},
-                    {data: 'rule', name: 'rule'},
                     {data: 'status', name: 'status'},
                     {data: 'action', name: 'action', orderable: false, searchable: false}
                 ]

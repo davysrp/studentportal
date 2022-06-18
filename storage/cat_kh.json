@@ -1,0 +1,1409 @@
+[
+  {
+    "category_id": "68",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237437.png",
+    "category_name": "ផលិតផលសម្រាប់ទារក & កុមារ",
+    "children": [
+      {
+        "category_id": "438",
+        "parent_id": "68",
+        "category_name": "ផលិតផលថែទាំអនាម័យកន្ទប",
+        "children": [
+          {
+            "category_id": "2611",
+            "parent_id": "438",
+            "category_name": "ក្រដាសសើម & ក្រដាសសើមបន្ថែមសម្រាប់ទារក"
+          },
+          {
+            "category_id": "4519",
+            "parent_id": "438",
+            "category_name": "កន្ទបទារកប្រើបានតែម្តង"
+          }
+        ]
+      },
+      {
+        "category_id": "439",
+        "parent_id": "68",
+        "category_name": "ផលិតផលថែរក្សាសុខភាព",
+        "children": [
+          {
+            "category_id": "2609",
+            "parent_id": "439",
+            "category_name": "ទែម៉ូម៉ែត្រទារក"
+          },
+          {
+            "category_id": "2677",
+            "parent_id": "439",
+            "category_name": "បង់បិតដំបៅ"
+          },
+          {
+            "category_id": "3606",
+            "parent_id": "439",
+            "category_name": "វីតាមីនរបស់កុមារ"
+          },
+          {
+            "category_id": "3834",
+            "parent_id": "439",
+            "category_name": "ថ្នាំផ្តាសាយ"
+          },
+          {
+            "category_id": "3840",
+            "parent_id": "439",
+            "category_name": "ថ្នាំក្រពះសម្រាប់ទារក"
+          }
+        ]
+      },
+      {
+        "category_id": "440",
+        "parent_id": "68",
+        "category_name": "ផលិតផលថែទាំផ្ទាល់ខ្លួន",
+        "children": [
+          {
+            "category_id": "2602",
+            "parent_id": "440",
+            "category_name": "ផលិតផលងូតទឹកទារក"
+          },
+          {
+            "category_id": "2608",
+            "parent_id": "440",
+            "category_name": "ផលិតផលថែរក្សាស្បែកទារក"
+          },
+          {
+            "category_id": "2610",
+            "parent_id": "440",
+            "category_name": "ច្រាសដុះធ្មេញទារក"
+          },
+          {
+            "category_id": "5866",
+            "parent_id": "440",
+            "category_name": "ផលិតផលថែទាំ​សក់"
+          },
+          {
+            "category_id": "7807",
+            "parent_id": "440",
+            "category_name": "បន្ទះថែទាំ"
+          },
+          {
+            "category_id": "7903",
+            "parent_id": "440",
+            "category_name": "អនាម័យមាត់"
+          }
+        ]
+      },
+      {
+        "category_id": "441",
+        "parent_id": "68",
+        "category_name": "សម្ភារៈ & គ្រឿងតុបតែងផ្សេងៗ"
+      },
+      {
+        "category_id": "11444",
+        "parent_id": "68",
+        "category_name": "ផលិតផលអាហារ &  បំបៅ"
+      }
+    ]
+  },
+  {
+    "category_id": "69",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237422.png",
+    "category_name": "ផលិតផល & សម្ភារៈងូតទឹក",
+    "children": [
+      {
+        "category_id": "442",
+        "parent_id": "69",
+        "category_name": "ផលិតផលងូតទឹក"
+      },
+      {
+        "category_id": "443",
+        "parent_id": "69",
+        "category_name": "សម្ភារៈសម្រាប់ងូតទឹក"
+      }
+    ]
+  },
+  {
+    "category_id": "71",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612242063.png",
+    "category_name": "ផលិតផលថែទាំដៃ ជើង & ក្រចក",
+    "children": [
+      {
+        "category_id": "446",
+        "parent_id": "71",
+        "category_name": "ផលិតផលថែទាំប្រអប់ជើង & ដៃ",
+        "children": [
+          {
+            "category_id": "5399",
+            "parent_id": "446",
+            "category_name": "ក្រែមលាប & លាបស្បែកជើង"
+          },
+          {
+            "category_id": "5401",
+            "parent_id": "446",
+            "category_name": "ម៉ាសបិទជើង"
+          },
+          {
+            "category_id": "5918",
+            "parent_id": "446",
+            "category_name": "ក្រែម & លេលាបដៃ"
+          },
+          {
+            "category_id": "5938",
+            "parent_id": "446",
+            "category_name": "សាប៊ូលាងដៃ"
+          },
+          {
+            "category_id": "9290",
+            "parent_id": "446",
+            "category_name": "ដុស"
+          }
+        ]
+      },
+      {
+        "category_id": "447",
+        "parent_id": "71",
+        "category_name": "ថ្នាំលាបក្រចក",
+        "children": [
+          {
+            "category_id": "2712",
+            "parent_id": "447",
+            "category_name": "ថ្នាំក្រចកសម្រាប់លាប & ទឹករលោង"
+          },
+          {
+            "category_id": "5096",
+            "parent_id": "447",
+            "category_name": "ក្រចកក្លែងក្លាយ & គ្រឿងបន្លាស់"
+          },
+          {
+            "category_id": "7636",
+            "parent_id": "447",
+            "category_name": "គ្រឿងសម្ភារៈសម្រាប់ការគូរក្រចក"
+          },
+          {
+            "category_id": "7642",
+            "parent_id": "447",
+            "category_name": "ថ្នាំលាបក្រចក"
+          },
+          {
+            "category_id": "7643",
+            "parent_id": "447",
+            "category_name": "ទឹកលាងថ្នាំក្រចក"
+          }
+        ]
+      },
+      {
+        "category_id": "448",
+        "parent_id": "71",
+        "category_name": "ផលិតផលថែទាំក្រចក",
+        "children": [
+          {
+            "category_id": "7646",
+            "parent_id": "448",
+            "category_name": "ការធ្វើអោយក្រចករឹងមាំ"
+          }
+        ]
+      },
+      {
+        "category_id": "450",
+        "parent_id": "71",
+        "category_name": "ឧបករណ៍ & សម្ភារៈផ្សេងៗ",
+        "children": [
+          {
+            "category_id": "4247",
+            "parent_id": "450",
+            "category_name": "ឧបករណ៍ធ្វើក្រចកដៃ"
+          },
+          {
+            "category_id": "7648",
+            "parent_id": "450",
+            "category_name": "ឧបករណ៍សម្រាប់ធ្វើក្រចក"
+          },
+          {
+            "category_id": "9387",
+            "parent_id": "450",
+            "category_name": "ឈុត & ឧបករណ៍"
+          },
+          {
+            "category_id": "9784",
+            "parent_id": "450",
+            "category_name": "ស្បែកជើងផ្ទាត់សម្រាប់ស៉្បា"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "72",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237385.png",
+    "category_name": "ទឹកអប់ & គ្រឿងក្រអូប",
+    "children": [
+      {
+        "category_id": "451",
+        "parent_id": "72",
+        "category_name": "ប្រេងក្រអូប",
+        "children": [
+          {
+            "category_id": "3353",
+            "parent_id": "451",
+            "category_name": "ទាន"
+          },
+          {
+            "category_id": "3429",
+            "parent_id": "451",
+            "category_name": "ដបប្រេង & ប្រេងសំខាន់ៗ"
+          },
+          {
+            "category_id": "4455",
+            "parent_id": "451",
+            "category_name": "ម៉ាស៊ីនបញ្ចេញផ្សេង"
+          },
+          {
+            "category_id": "7456",
+            "parent_id": "451",
+            "category_name": "ទឺកសំណើម & ទឹកក្រអូប"
+          }
+        ]
+      },
+      {
+        "category_id": "453",
+        "parent_id": "72",
+        "category_name": "សម្រាប់កុមារ"
+      },
+      {
+        "category_id": "454",
+        "parent_id": "72",
+        "category_name": "ម៉្សៅ"
+      },
+      {
+        "category_id": "455",
+        "parent_id": "72",
+        "category_name": "សម្រាប់បុរស",
+        "children": [
+          {
+            "category_id": "3025",
+            "parent_id": "455",
+            "category_name": "ស្រ្ពាយបាញ់ខ្លួន"
+          },
+          {
+            "category_id": "3866",
+            "parent_id": "455",
+            "category_name": "ទឹកអប់"
+          },
+          {
+            "category_id": "4742",
+            "parent_id": "455",
+            "category_name": "Eau de Parfum"
+          },
+          {
+            "category_id": "4744",
+            "parent_id": "455",
+            "category_name": "Eau de Toilette"
+          },
+          {
+            "category_id": "4746",
+            "parent_id": "455",
+            "category_name": "Eau Fraiche"
+          },
+          {
+            "category_id": "9385",
+            "parent_id": "455",
+            "category_name": "ឈុត"
+          }
+        ]
+      },
+      {
+        "category_id": "456",
+        "parent_id": "72",
+        "category_name": "សម្រាប់ស្រ្តី",
+        "children": [
+          {
+            "category_id": "3026",
+            "parent_id": "456",
+            "category_name": "ស្រ្ពាយបាញ់ខ្លួន"
+          },
+          {
+            "category_id": "3867",
+            "parent_id": "456",
+            "category_name": "ទឹកអប់"
+          },
+          {
+            "category_id": "4743",
+            "parent_id": "456",
+            "category_name": "Eau de Parfum"
+          },
+          {
+            "category_id": "4745",
+            "parent_id": "456",
+            "category_name": "Eau de Toilette"
+          },
+          {
+            "category_id": "4747",
+            "parent_id": "456",
+            "category_name": "Eau Fraiche"
+          },
+          {
+            "category_id": "9386",
+            "parent_id": "456",
+            "category_name": "ឈុត"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "74",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237368.png",
+    "category_name": "ផលិតផលថែទាំសក់",
+    "children": [
+      {
+        "category_id": "458",
+        "parent_id": "74",
+        "category_name": "ផលិតផលសម្រាប់តសក់ សក់ក្លែងក្លាយ & គ្រឿងតុបតែងផ្សេងៗ",
+        "children": [
+          {
+            "category_id": "5888",
+            "parent_id": "458",
+            "category_name": "សក់ក្លែងក្លាយ"
+          }
+        ]
+      },
+      {
+        "category_id": "459",
+        "parent_id": "74",
+        "category_name": "ផលិតផលសម្រាប់ព្យាបាលសក់ & ស្បែកក្បាល"
+      },
+      {
+        "category_id": "460",
+        "parent_id": "74",
+        "category_name": "សម្ភារៈតុបតែងសក់ផ្សេងៗ",
+        "children": [
+          {
+            "category_id": "4793",
+            "parent_id": "460",
+            "category_name": "កៅស៊ូ & ចំណងចងសក់"
+          },
+          {
+            "category_id": "5889",
+            "parent_id": "460",
+            "category_name": "ដង្កៀបសក់"
+          },
+          {
+            "category_id": "5983",
+            "parent_id": "460",
+            "category_name": "បូរសក់"
+          }
+        ]
+      },
+      {
+        "category_id": "461",
+        "parent_id": "74",
+        "category_name": "ផលិតផលប្តូរពណ៌សក់",
+        "children": [
+          {
+            "category_id": "5871",
+            "parent_id": "461",
+            "category_name": "ថ្នាំលាបពណ៌​សក់"
+          },
+          {
+            "category_id": "5885",
+            "parent_id": "461",
+            "category_name": "ម៉ាស្ការ៉ាសក់ & ផលិតផលលាបគល់សក់"
+          }
+        ]
+      },
+      {
+        "category_id": "462",
+        "parent_id": "74",
+        "category_name": "ឧបករណ៍កាត់សក់",
+        "children": [
+          {
+            "category_id": "5869",
+            "parent_id": "462",
+            "category_name": "ម៉ាស៊ីនកាត់សក់ & គ្រឿងផ្សែងៗ"
+          },
+          {
+            "category_id": "5875",
+            "parent_id": "462",
+            "category_name": "សម្ភារៈកាត់សក់"
+          }
+        ]
+      },
+      {
+        "category_id": "463",
+        "parent_id": "74",
+        "category_name": "ផលិតផលសម្រាប់សក់ជ្រុះ",
+        "children": [
+          {
+            "category_id": "5890",
+            "parent_id": "463",
+            "category_name": "ផលិតផលបន្ទន់ដើម្បីបន្តុះសក់"
+          },
+          {
+            "category_id": "5891",
+            "parent_id": "463",
+            "category_name": "សាប៊ូកក់សក់ដើម្បីបន្តុះសក់"
+          },
+          {
+            "category_id": "5892",
+            "parent_id": "463",
+            "category_name": "ប្រេងសម្រាប់បន្តុះសក់"
+          },
+          {
+            "category_id": "5893",
+            "parent_id": "463",
+            "category_name": "ផលិតផលជំនួយការបន្តុះសក់"
+          }
+        ]
+      },
+      {
+        "category_id": "464",
+        "parent_id": "74",
+        "category_name": "ម៉ាស់សម្រាប់សក់"
+      },
+      {
+        "category_id": "466",
+        "parent_id": "74",
+        "category_name": "ប្រេងព្យាបាលសក់"
+      },
+      {
+        "category_id": "467",
+        "parent_id": "74",
+        "category_name": "សាប៊ូកក់ សម្អាត & បន្ទន់សក់",
+        "children": [
+          {
+            "category_id": "2012",
+            "parent_id": "467",
+            "category_name": "សាប៊ូកក់សក់ & បន្ទន់សក់នៅជាមួយគ្នា"
+          },
+          {
+            "category_id": "2025",
+            "parent_id": "467",
+            "category_name": "សាប៊ូ 3-in-1 ក្រែមបន្ទន់  & សាប៊ូដុសខ្លួន"
+          },
+          {
+            "category_id": "3977",
+            "parent_id": "467",
+            "category_name": "សាប៊ូបន្ទន់សក់"
+          },
+          {
+            "category_id": "4340",
+            "parent_id": "467",
+            "category_name": "ផលិតផលអប់សក់"
+          },
+          {
+            "category_id": "4675",
+            "parent_id": "467",
+            "category_name": "សាប៊ូស្ងួតសម្រាប់បាញ់សក់"
+          },
+          {
+            "category_id": "9424",
+            "parent_id": "467",
+            "category_name": "ឈុតសាប៊ូកក់សក់ & បន្ទន់សក់"
+          },
+          {
+            "category_id": "9425",
+            "parent_id": "467",
+            "category_name": "សាប៊ូកក់សក់"
+          },
+          {
+            "category_id": "11406",
+            "parent_id": "467",
+            "category_name": "ការលាងសម្អាត"
+          }
+        ]
+      },
+      {
+        "category_id": "468",
+        "parent_id": "74",
+        "category_name": "ផលិតផលតុបតែង",
+        "children": [
+          {
+            "category_id": "4405",
+            "parent_id": "468",
+            "category_name": "ផលិតផលកម្ចាត់សក់កន្ឌាញ់"
+          },
+          {
+            "category_id": "5644",
+            "parent_id": "468",
+            "category_name": "ជែល"
+          },
+          {
+            "category_id": "5899",
+            "parent_id": "468",
+            "category_name": "ថ្នាំបាញ់សក់"
+          },
+          {
+            "category_id": "7550",
+            "parent_id": "468",
+            "category_name": "សាប៊ូពពុះ & សាប៊ូលាង"
+          },
+          {
+            "category_id": "8682",
+            "parent_id": "468",
+            "category_name": "ចាហ៊ួយ  & ដីឥដ្ឋ"
+          },
+          {
+            "category_id": "10062",
+            "parent_id": "468",
+            "category_name": "ថ្នាំព្យាបាលសក់"
+          }
+        ]
+      },
+      {
+        "category_id": "470",
+        "parent_id": "74",
+        "category_name": "សម្រាប់ស្រ្តី"
+      }
+    ]
+  },
+  {
+    "category_id": "76",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237328.png",
+    "category_name": "ផលិតផលតុបតែងមុខ",
+    "children": [
+      {
+        "category_id": "484",
+        "parent_id": "76",
+        "category_name": "ខ្លួនប្រាណ",
+        "children": [
+          {
+            "category_id": "3016",
+            "parent_id": "484",
+            "category_name": "កម្ទេចភ្លីភ្លេតសម្រាប់ដងខ្លួន"
+          }
+        ]
+      },
+      {
+        "category_id": "485",
+        "parent_id": "76",
+        "category_name": "ភ្នែក",
+        "children": [
+          {
+            "category_id": "3971",
+            "parent_id": "485",
+            "category_name": "ម្សៅបំបាត់ស្លាកស្នាម"
+          },
+          {
+            "category_id": "5064",
+            "parent_id": "485",
+            "category_name": "ពណ៌រោមចិញ្ចើម"
+          },
+          {
+            "category_id": "5068",
+            "parent_id": "485",
+            "category_name": "ជក់គូរត្របកភ្នែក"
+          },
+          {
+            "category_id": "5072",
+            "parent_id": "485",
+            "category_name": "ម្សៅផាត់ភ្នែក"
+          },
+          {
+            "category_id": "5073",
+            "parent_id": "485",
+            "category_name": "ទ្រនាប់ម្សៅផាត់ភ្នែក"
+          },
+          {
+            "category_id": "6787",
+            "parent_id": "485",
+            "category_name": "ផលិតផលជួយបង្កេីនរោមភ្នែក  &  សម្រាប់លាបទ្រនាប់"
+          },
+          {
+            "category_id": "6941",
+            "parent_id": "485",
+            "category_name": "គ្រឿងសម្អាងគូស & ផាត់ភ្នែក"
+          },
+          {
+            "category_id": "7192",
+            "parent_id": "485",
+            "category_name": "ម៉ាស្ការ៉ា"
+          }
+        ]
+      },
+      {
+        "category_id": "486",
+        "parent_id": "76",
+        "category_name": "មុខ",
+        "children": [
+          {
+            "category_id": "2978",
+            "parent_id": "486",
+            "category_name": "ក្រដាសជូតខ្លាញ់"
+          },
+          {
+            "category_id": "2993",
+            "parent_id": "486",
+            "category_name": "ម្សៅលាបថ្ពាល់"
+          },
+          {
+            "category_id": "3171",
+            "parent_id": "486",
+            "category_name": "ម្សៅពណ៌ត្នោត & ម្សៅហាយឡាយមុខ"
+          },
+          {
+            "category_id": "3972",
+            "parent_id": "486",
+            "category_name": "ម្សៅបំបាត់ស្លាកស្នាម & ឲ្យរលោង"
+          },
+          {
+            "category_id": "5451",
+            "parent_id": "486",
+            "category_name": "ម្សៅទ្រនាប់"
+          },
+          {
+            "category_id": "5452",
+            "parent_id": "486",
+            "category_name": "ម្សៅទ្រនាប់បឋម"
+          },
+          {
+            "category_id": "8495",
+            "parent_id": "486",
+            "category_name": "ម្សៅ"
+          }
+        ]
+      },
+      {
+        "category_id": "487",
+        "parent_id": "76",
+        "category_name": "បបូរមាត់",
+        "children": [
+          {
+            "category_id": "6959",
+            "parent_id": "487",
+            "category_name": "ក្រេមរលោងលាបបបូរមាត់"
+          },
+          {
+            "category_id": "6960",
+            "parent_id": "487",
+            "category_name": "ក្រេមគូសគេមបបូរមាត់"
+          },
+          {
+            "category_id": "6961",
+            "parent_id": "487",
+            "category_name": "ក្រេមធ្វើឲ្យបបូរមាត់ធំស្អាត"
+          },
+          {
+            "category_id": "6963",
+            "parent_id": "487",
+            "category_name": "ក្រេមជាប់បានយូរ"
+          },
+          {
+            "category_id": "6964",
+            "parent_id": "487",
+            "category_name": "ក្រេម"
+          },
+          {
+            "category_id": "6965",
+            "parent_id": "487",
+            "category_name": "ផលិតផលទ្រនាប់បបូរមាត់"
+          }
+        ]
+      },
+      {
+        "category_id": "488",
+        "parent_id": "76",
+        "category_name": "ឈុតពណ៌គ្រឿងសំអាង"
+      },
+      {
+        "category_id": "489",
+        "parent_id": "76",
+        "category_name": "ផលិតផលសម្រាប់លាងសម្អាតគ្រឿងសំអាង",
+        "children": [
+          {
+            "category_id": "5070",
+            "parent_id": "489",
+            "category_name": "ភ្នែក"
+          },
+          {
+            "category_id": "5081",
+            "parent_id": "489",
+            "category_name": "មុខ"
+          },
+          {
+            "category_id": "6962",
+            "parent_id": "489",
+            "category_name": "បបូរមាត់"
+          }
+        ]
+      },
+      {
+        "category_id": "490",
+        "parent_id": "76",
+        "category_name": "ឈុតគ្រឿងសំអាង"
+      },
+      {
+        "category_id": "491",
+        "parent_id": "76",
+        "category_name": "ឧបករណ៍ & សម្ភារៈតុបតែង"
+      }
+    ]
+  },
+  {
+    "category_id": "81",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237350.png",
+    "category_name": "ផលិតផលថែទាំស្បែក",
+    "children": [
+      {
+        "category_id": "533",
+        "parent_id": "81",
+        "category_name": "ខ្លួនប្រាណ",
+        "children": [
+          {
+            "category_id": "3726",
+            "parent_id": "533",
+            "category_name": "សាប៊ូដុសខ្លួន"
+          },
+          {
+            "category_id": "7489",
+            "parent_id": "533",
+            "category_name": "ផលិតផលលាបឲ្យមានសំណើម"
+          },
+          {
+            "category_id": "9293",
+            "parent_id": "533",
+            "category_name": "ដុស & ព្យាបាលរាងកាយ"
+          },
+          {
+            "category_id": "9389",
+            "parent_id": "533",
+            "category_name": "ឈុត & ឧបករណ៍"
+          }
+        ]
+      },
+      {
+        "category_id": "534",
+        "parent_id": "81",
+        "category_name": "ភ្នែក",
+        "children": [
+          {
+            "category_id": "4168",
+            "parent_id": "534",
+            "category_name": "ក្រែម"
+          },
+          {
+            "category_id": "5645",
+            "parent_id": "534",
+            "category_name": "ជែល"
+          },
+          {
+            "category_id": "7195",
+            "parent_id": "534",
+            "category_name": "ម៉ាស"
+          },
+          {
+            "category_id": "9380",
+            "parent_id": "534",
+            "category_name": "សេរ៉ូម"
+          }
+        ]
+      },
+      {
+        "category_id": "535",
+        "parent_id": "81",
+        "category_name": "មុខ",
+        "children": [
+          {
+            "category_id": "3727",
+            "parent_id": "535",
+            "category_name": "ផលិតផលលាងមុខ"
+          },
+          {
+            "category_id": "4169",
+            "parent_id": "535",
+            "category_name": "ឡេ & ផលិតផលផ្ដល់សំណើម"
+          },
+          {
+            "category_id": "8412",
+            "parent_id": "535",
+            "category_name": "ផលិតផលដុសខាត់ & ស្ក្រាប់"
+          },
+          {
+            "category_id": "9390",
+            "parent_id": "535",
+            "category_name": "ឈុត & ឧបករណ៍"
+          },
+          {
+            "category_id": "10475",
+            "parent_id": "535",
+            "category_name": "ទឹកជូតមុខ"
+          },
+          {
+            "category_id": "10632",
+            "parent_id": "535",
+            "category_name": "ផលិតផលព្យាបាល & ម៉ាស"
+          },
+          {
+            "category_id": "11404",
+            "parent_id": "535",
+            "category_name": "សេរ៉ូមសម្រាប់ផ្ទៃមុខ"
+          }
+        ]
+      },
+      {
+        "category_id": "536",
+        "parent_id": "81",
+        "category_name": "ផលិតផលថែទាំបបូរមាត់",
+        "children": [
+          {
+            "category_id": "2673",
+            "parent_id": "536",
+            "category_name": "ក្រមួន & ក្រេមផ្តល់សំណើម"
+          },
+          {
+            "category_id": "6957",
+            "parent_id": "536",
+            "category_name": "ក្រេមប័រលាបបបូរមាត់"
+          },
+          {
+            "category_id": "9292",
+            "parent_id": "536",
+            "category_name": "ដុស"
+          }
+        ]
+      },
+      {
+        "category_id": "537",
+        "parent_id": "81",
+        "category_name": "ឈុតគ្រឿងសំអាង"
+      },
+      {
+        "category_id": "538",
+        "parent_id": "81",
+        "category_name": "ផលិតផលអ្នកមានផ្ទៃពោះ"
+      },
+      {
+        "category_id": "539",
+        "parent_id": "81",
+        "category_name": "ឈុត & ឧបករណ៍"
+      },
+      {
+        "category_id": "540",
+        "parent_id": "81",
+        "category_name": "ឡេការពារកម្តៅថ្ងៃ",
+        "children": [
+          {
+            "category_id": "10103",
+            "parent_id": "540",
+            "category_name": "ឡេការពារកំដៅថ្ងៃ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "82",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237471.png",
+    "category_name": "អាហារូបត្ថម្ភកីឡា",
+    "children": [
+      {
+        "category_id": "541",
+        "parent_id": "82",
+        "category_name": "ផលិតផលអាមីណូអាសុីត",
+        "children": [
+          {
+            "category_id": "2129",
+            "parent_id": "541",
+            "category_name": "Acetyl-L-Carnitine"
+          },
+          {
+            "category_id": "2775",
+            "parent_id": "541",
+            "category_name": "BCAAs"
+          },
+          {
+            "category_id": "4170",
+            "parent_id": "541",
+            "category_name": "ថ្នាំបំប៉នសាច់ដុំ"
+          },
+          {
+            "category_id": "6890",
+            "parent_id": "541",
+            "category_name": "L-Glutamine"
+          }
+        ]
+      },
+      {
+        "category_id": "542",
+        "parent_id": "82",
+        "category_name": "ផលិតផលថាមពល",
+        "children": [
+          {
+            "category_id": "8499",
+            "parent_id": "542",
+            "category_name": "ម្សៅ"
+          },
+          {
+            "category_id": "10114",
+            "parent_id": "542",
+            "category_name": "ថ្នាំជំនួយ"
+          }
+        ]
+      },
+      {
+        "category_id": "543",
+        "parent_id": "82",
+        "category_name": "ផលិតផលដុតជាតិខ្លាញ់",
+        "children": [
+          {
+            "category_id": "3689",
+            "parent_id": "543",
+            "category_name": "CLA"
+          },
+          {
+            "category_id": "5148",
+            "parent_id": "543",
+            "category_name": "អ្នកដុតខ្លាញ់"
+          },
+          {
+            "category_id": "6830",
+            "parent_id": "543",
+            "category_name": "ថ្នាំបំប៉នអិលកានីទីន"
+          }
+        ]
+      },
+      {
+        "category_id": "544",
+        "parent_id": "82",
+        "category_name": "ចំណី & ភេសជ្ជៈសុខភាព",
+        "children": [
+          {
+            "category_id": "3632",
+            "parent_id": "544",
+            "category_name": "សូកូឡា"
+          },
+          {
+            "category_id": "8651",
+            "parent_id": "544",
+            "category_name": "ចាហ៊ួយ"
+          }
+        ]
+      },
+      {
+        "category_id": "548",
+        "parent_id": "82",
+        "category_name": "ផលិតផលបន្ទាប់ពីការហាត់ប្រាណ & ជាសះស្បើយ"
+      },
+      {
+        "category_id": "549",
+        "parent_id": "82",
+        "category_name": "ផលិតផលមុនការហាត់ប្រាណ",
+        "children": [
+          {
+            "category_id": "8500",
+            "parent_id": "549",
+            "category_name": "ម្សៅ"
+          }
+        ]
+      },
+      {
+        "category_id": "550",
+        "parent_id": "82",
+        "category_name": "ប្រូតេអុីន",
+        "children": [
+          {
+            "category_id": "8501",
+            "parent_id": "550",
+            "category_name": "ម្សៅ"
+          }
+        ]
+      },
+      {
+        "category_id": "551",
+        "parent_id": "82",
+        "category_name": "ផលិតផលបង្កើនតេស្តូស្តេរ៉ូន"
+      },
+      {
+        "category_id": "552",
+        "parent_id": "82",
+        "category_name": "ផលិតផលបង្កើនទម្ងន់"
+      }
+    ]
+  },
+  {
+    "category_id": "83",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237403.png",
+    "category_name": "ផលិតផល & សម្ភារៈតុបតែង",
+    "children": [
+      {
+        "category_id": "553",
+        "parent_id": "83",
+        "category_name": "កាបូប & សំបកការពារ",
+        "children": [
+          {
+            "category_id": "4103",
+            "parent_id": "553",
+            "category_name": "កាបូបដាក់គ្រឿងសម្អាង"
+          },
+          {
+            "category_id": "4105",
+            "parent_id": "553",
+            "category_name": "កាបូបដាក់បង្ហាញគ្រឿងសម្អាង"
+          },
+          {
+            "category_id": "8862",
+            "parent_id": "553",
+            "category_name": "កុងតឺន័រដែលអាចបញ្ជូនឡើងវិញបាន"
+          },
+          {
+            "category_id": "10469",
+            "parent_id": "553",
+            "category_name": "កាបូបសម្រាប់ដាក់សម្ភារៈបន្ទប់ទឹក"
+          },
+          {
+            "category_id": "10471",
+            "parent_id": "553",
+            "category_name": "សម្ភារៈបន្ទប់ទឹក"
+          },
+          {
+            "category_id": "10561",
+            "parent_id": "553",
+            "category_name": "ប្រអប់ដាក់គ្រឿងសម្អាង"
+          },
+          {
+            "category_id": "10618",
+            "parent_id": "553",
+            "category_name": "វ៉ាលីសម្រាប់ធ្វើដំណើរ"
+          }
+        ]
+      },
+      {
+        "category_id": "554",
+        "parent_id": "83",
+        "category_name": "សម្ភារៈងូតទឹក",
+        "children": [
+          {
+            "category_id": "2736",
+            "parent_id": "554",
+            "category_name": "ច្រាសសម្រាប់ងូតទឹក & ដុសខ្លួន"
+          },
+          {
+            "category_id": "7019",
+            "parent_id": "554",
+            "category_name": "ប៉ុងដុះខ្លួនធ្វើពីននោង"
+          },
+          {
+            "category_id": "9501",
+            "parent_id": "554",
+            "category_name": "មួកសម្រាប់ងូតទឹក"
+          }
+        ]
+      },
+      {
+        "category_id": "555",
+        "parent_id": "83",
+        "category_name": "ដុំសំឡី & ឈើសម្អាតត្រចៀក",
+        "children": [
+          {
+            "category_id": "4117",
+            "parent_id": "555",
+            "category_name": "សំឡីមូលៗ"
+          },
+          {
+            "category_id": "4118",
+            "parent_id": "555",
+            "category_name": "បន្ទះសំឡីមូលៗ"
+          },
+          {
+            "category_id": "4119",
+            "parent_id": "555",
+            "category_name": "សំឡីត្បាលត្រជាក់"
+          }
+        ]
+      },
+      {
+        "category_id": "557",
+        "parent_id": "83",
+        "category_name": "ឧបករណ៍ & សម្ភារៈធ្វើម៉ូតសក់",
+        "children": [
+          {
+            "category_id": "5874",
+            "parent_id": "557",
+            "category_name": "ក្រាស់សិតសក់"
+          },
+          {
+            "category_id": "5879",
+            "parent_id": "557",
+            "category_name": "ឧបករណ៍ផ្លុំសក់ & គ្រឿងផ្សែងៗ"
+          },
+          {
+            "category_id": "5897",
+            "parent_id": "557",
+            "category_name": "ដុំមូលសក់"
+          }
+        ]
+      },
+      {
+        "category_id": "558",
+        "parent_id": "83",
+        "category_name": "ឧបករណ៍ & ជក់តុបតែងមុខ",
+        "children": [
+          {
+            "category_id": "3179",
+            "parent_id": "558",
+            "category_name": "ឧបករណ៍សម្អាតជក់"
+          },
+          {
+            "category_id": "3188",
+            "parent_id": "558",
+            "category_name": "ឈុតជក់"
+          },
+          {
+            "category_id": "5063",
+            "parent_id": "558",
+            "category_name": "ភ្នែក"
+          },
+          {
+            "category_id": "5083",
+            "parent_id": "558",
+            "category_name": "មុខ"
+          },
+          {
+            "category_id": "7114",
+            "parent_id": "558",
+            "category_name": "ជក់បាញ់គ្រឿងសំអាង"
+          }
+        ]
+      },
+      {
+        "category_id": "559",
+        "parent_id": "83",
+        "category_name": "កញ្ចក់ឆ្លុះ",
+        "children": [
+          {
+            "category_id": "3930",
+            "parent_id": "559",
+            "category_name": "កញ្ចក់សម្រាប់ធ្វើដំណើរ"
+          },
+          {
+            "category_id": "7115",
+            "parent_id": "559",
+            "category_name": "កញ្ចក់តុបតែងមុខ"
+          }
+        ]
+      },
+      {
+        "category_id": "561",
+        "parent_id": "83",
+        "category_name": "ឧបករណ៍កោរ & ដករោម",
+        "children": [
+          {
+            "category_id": "7327",
+            "parent_id": "561",
+            "category_name": "របស់បុរស"
+          },
+          {
+            "category_id": "11251",
+            "parent_id": "561",
+            "category_name": "របស់ស្រ្តី"
+          }
+        ]
+      },
+      {
+        "category_id": "562",
+        "parent_id": "83",
+        "category_name": "សម្ភារៈថែទាំស្បែក",
+        "children": [
+          {
+            "category_id": "2950",
+            "parent_id": "562",
+            "category_name": "ផលិតផលកម្ចាត់មុនក្បាលខ្មៅ & មុនខ្សាច់"
+          },
+          {
+            "category_id": "5065",
+            "parent_id": "562",
+            "category_name": "កន្ត្រៃរោមចិញ្ចើម"
+          },
+          {
+            "category_id": "5084",
+            "parent_id": "562",
+            "category_name": "ជក់សម្អាតផ្ទៃមុខ"
+          },
+          {
+            "category_id": "7441",
+            "parent_id": "562",
+            "category_name": "កញ្ចក់"
+          }
+        ]
+      },
+      {
+        "category_id": "11445",
+        "parent_id": "83",
+        "category_name": "សម្ភារៈ & ឧបករណ៍កីឡា"
+      }
+    ]
+  },
+  {
+    "category_id": "85",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237456.png",
+    "category_name": "វីតាមីន & អាហារបំប៉ន",
+    "children": [
+      {
+        "category_id": "569",
+        "parent_id": "85",
+        "category_name": "ថ្នាំគ្រាប់រុក្ខជាតិ",
+        "children": [
+          {
+            "category_id": "3627",
+            "parent_id": "569",
+            "category_name": "ក្លរ៉ូភីល"
+          },
+          {
+            "category_id": "5707",
+            "parent_id": "569",
+            "category_name": "ខ្ញី"
+          },
+          {
+            "category_id": "5709",
+            "parent_id": "569",
+            "category_name": "Ginkgo Biloba"
+          },
+          {
+            "category_id": "5710",
+            "parent_id": "569",
+            "category_name": "យិនស៊ិន"
+          },
+          {
+            "category_id": "5813",
+            "parent_id": "569",
+            "category_name": "តែ​បៃតង"
+          },
+          {
+            "category_id": "9837",
+            "parent_id": "569",
+            "category_name": "ស្ពីរ៉ូលីណា"
+          }
+        ]
+      },
+      {
+        "category_id": "570",
+        "parent_id": "85",
+        "category_name": "រ៉ែធម្មជាតិ",
+        "children": [
+          {
+            "category_id": "3302",
+            "parent_id": "570",
+            "category_name": "កាល់ស្យូម"
+          },
+          {
+            "category_id": "3842",
+            "parent_id": "570",
+            "category_name": "កូឡាជែន"
+          },
+          {
+            "category_id": "6512",
+            "parent_id": "570",
+            "category_name": "ដែក"
+          },
+          {
+            "category_id": "7583",
+            "parent_id": "570",
+            "category_name": "ថ្នាំមានជាតិរ៉ែចម្រុះ"
+          },
+          {
+            "category_id": "11335",
+            "parent_id": "570",
+            "category_name": "សង្ក័សី"
+          }
+        ]
+      },
+      {
+        "category_id": "571",
+        "parent_id": "85",
+        "category_name": "ថ្នាំជំនួយសុខភាព",
+        "children": [
+          {
+            "category_id": "2331",
+            "parent_id": "571",
+            "category_name": "អាមីណូអាស៊ីត"
+          },
+          {
+            "category_id": "2400",
+            "parent_id": "571",
+            "category_name": "សារធាតុប្រឆាំងអុកស៊ីតកម្ម"
+          },
+          {
+            "category_id": "3642",
+            "parent_id": "571",
+            "category_name": "Chondroitin & Glucosamine"
+          },
+          {
+            "category_id": "4460",
+            "parent_id": "571",
+            "category_name": "ថ្នាំបំប៉នរំលាយអាហារ"
+          },
+          {
+            "category_id": "4982",
+            "parent_id": "571",
+            "category_name": "អាស៊ីតខ្លាញ់សំខាន់"
+          },
+          {
+            "category_id": "5262",
+            "parent_id": "571",
+            "category_name": "ខ្លាញ់ត្រី"
+          },
+          {
+            "category_id": "9076",
+            "parent_id": "571",
+            "category_name": "ចាហ៊ួយទឹកឃ្មុំ"
+          }
+        ]
+      },
+      {
+        "category_id": "572",
+        "parent_id": "85",
+        "category_name": "វីតាមីន",
+        "children": [
+          {
+            "category_id": "2966",
+            "parent_id": "572",
+            "category_name": "ថ្នាំបំប៉នវីតាមីនលាយជាមួយជាតិរ៉ែ"
+          },
+          {
+            "category_id": "7587",
+            "parent_id": "572",
+            "category_name": "ថ្នាំវីតាមីនចម្រុះ"
+          },
+          {
+            "category_id": "8543",
+            "parent_id": "572",
+            "category_name": "វីតាមីនមុននិងក្រោយពេលមានផ្ទៃពោះ"
+          },
+          {
+            "category_id": "10925",
+            "parent_id": "572",
+            "category_name": "វីតាមីន C"
+          },
+          {
+            "category_id": "10926",
+            "parent_id": "572",
+            "category_name": "វីតាមីន D"
+          },
+          {
+            "category_id": "10927",
+            "parent_id": "572",
+            "category_name": "វីតាមីន E"
+          }
+        ]
+      },
+      {
+        "category_id": "574",
+        "parent_id": "85",
+        "category_name": "ផលិតផលសម្រកទម្ងន់",
+        "children": [
+          {
+            "category_id": "2416",
+            "parent_id": "574",
+            "category_name": "ការត្រួតពិនិត្យ & បន្ថយចំណង់អាហារ"
+          },
+          {
+            "category_id": "4409",
+            "parent_id": "574",
+            "category_name": "សម្អាតជាតិពុល & ​សម្អាត"
+          },
+          {
+            "category_id": "10115",
+            "parent_id": "574",
+            "category_name": "ថ្នាំជំនួយ"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1409 @@
+[
+  {
+    "category_id": "68",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237437.png",
+    "category_name": "Baby & Child Care",
+    "children": [
+      {
+        "category_id": "438",
+        "parent_id": "68",
+        "category_name": "Diaper Care",
+        "children": [
+          {
+            "category_id": "2611",
+            "parent_id": "438",
+            "category_name": "Baby Wipes & Refills"
+          },
+          {
+            "category_id": "4519",
+            "parent_id": "438",
+            "category_name": "Disposable Diapers"
+          }
+        ]
+      },
+      {
+        "category_id": "439",
+        "parent_id": "68",
+        "category_name": "Health Care",
+        "children": [
+          {
+            "category_id": "2609",
+            "parent_id": "439",
+            "category_name": "Baby Thermometers"
+          },
+          {
+            "category_id": "2677",
+            "parent_id": "439",
+            "category_name": "Bandages"
+          },
+          {
+            "category_id": "3606",
+            "parent_id": "439",
+            "category_name": "Children's Vitamins"
+          },
+          {
+            "category_id": "3834",
+            "parent_id": "439",
+            "category_name": "Cold & Flu Remedies"
+          },
+          {
+            "category_id": "3840",
+            "parent_id": "439",
+            "category_name": "Colic & Gas Relief"
+          }
+        ]
+      },
+      {
+        "category_id": "440",
+        "parent_id": "68",
+        "category_name": "Personal Care",
+        "children": [
+          {
+            "category_id": "2602",
+            "parent_id": "440",
+            "category_name": "Baby Bath"
+          },
+          {
+            "category_id": "2608",
+            "parent_id": "440",
+            "category_name": "Baby Skin Care"
+          },
+          {
+            "category_id": "2610",
+            "parent_id": "440",
+            "category_name": "Baby Toothbrushes"
+          },
+          {
+            "category_id": "5866",
+            "parent_id": "440",
+            "category_name": "Hair Care"
+          },
+          {
+            "category_id": "7807",
+            "parent_id": "440",
+            "category_name": "Nursing Pads"
+          },
+          {
+            "category_id": "7903",
+            "parent_id": "440",
+            "category_name": "Oral Hygiene"
+          }
+        ]
+      },
+      {
+        "category_id": "441",
+        "parent_id": "68",
+        "category_name": "Tools & Accessories"
+      },
+      {
+        "category_id": "11444",
+        "parent_id": "68",
+        "category_name": "Food & Feeding"
+      }
+    ]
+  },
+  {
+    "category_id": "69",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237422.png",
+    "category_name": "Bath & Bathing Accessories",
+    "children": [
+      {
+        "category_id": "442",
+        "parent_id": "69",
+        "category_name": "Bath"
+      },
+      {
+        "category_id": "443",
+        "parent_id": "69",
+        "category_name": "Bathing Accessories"
+      }
+    ]
+  },
+  {
+    "category_id": "71",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612242063.png",
+    "category_name": "Foot, Hand & Nail Care",
+    "children": [
+      {
+        "category_id": "446",
+        "parent_id": "71",
+        "category_name": "Foot & Hand Care",
+        "children": [
+          {
+            "category_id": "5399",
+            "parent_id": "446",
+            "category_name": "Foot Creams & Lotions"
+          },
+          {
+            "category_id": "5401",
+            "parent_id": "446",
+            "category_name": "Foot Masks"
+          },
+          {
+            "category_id": "5918",
+            "parent_id": "446",
+            "category_name": "Hand Creams & Lotions"
+          },
+          {
+            "category_id": "5938",
+            "parent_id": "446",
+            "category_name": "Hand Wash"
+          },
+          {
+            "category_id": "9290",
+            "parent_id": "446",
+            "category_name": "Scrubs"
+          }
+        ]
+      },
+      {
+        "category_id": "447",
+        "parent_id": "71",
+        "category_name": "Nail Art & Polish",
+        "children": [
+          {
+            "category_id": "2712",
+            "parent_id": "447",
+            "category_name": "Base & Top Coats"
+          },
+          {
+            "category_id": "5096",
+            "parent_id": "447",
+            "category_name": "False Nails & Accessories"
+          },
+          {
+            "category_id": "7636",
+            "parent_id": "447",
+            "category_name": "Nail Art Accessories"
+          },
+          {
+            "category_id": "7642",
+            "parent_id": "447",
+            "category_name": "Nail Polish"
+          },
+          {
+            "category_id": "7643",
+            "parent_id": "447",
+            "category_name": "Nail Polish Remover"
+          }
+        ]
+      },
+      {
+        "category_id": "448",
+        "parent_id": "71",
+        "category_name": "Nail Care",
+        "children": [
+          {
+            "category_id": "7646",
+            "parent_id": "448",
+            "category_name": "Nail Strengthening"
+          }
+        ]
+      },
+      {
+        "category_id": "450",
+        "parent_id": "71",
+        "category_name": "Tools & Accessories",
+        "children": [
+          {
+            "category_id": "4247",
+            "parent_id": "450",
+            "category_name": "Cuticle Tools"
+          },
+          {
+            "category_id": "7648",
+            "parent_id": "450",
+            "category_name": "Nail Tools"
+          },
+          {
+            "category_id": "9387",
+            "parent_id": "450",
+            "category_name": "Sets & Kits"
+          },
+          {
+            "category_id": "9784",
+            "parent_id": "450",
+            "category_name": "Spa Slippers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "72",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237385.png",
+    "category_name": "Fragrance",
+    "children": [
+      {
+        "category_id": "451",
+        "parent_id": "72",
+        "category_name": "Aromatherapy",
+        "children": [
+          {
+            "category_id": "3353",
+            "parent_id": "451",
+            "category_name": "Candles"
+          },
+          {
+            "category_id": "3429",
+            "parent_id": "451",
+            "category_name": "Carrier & Essential Oils"
+          },
+          {
+            "category_id": "4455",
+            "parent_id": "451",
+            "category_name": "Diffusers"
+          },
+          {
+            "category_id": "7456",
+            "parent_id": "451",
+            "category_name": "Mists & Hydrosols"
+          }
+        ]
+      },
+      {
+        "category_id": "453",
+        "parent_id": "72",
+        "category_name": "Children's"
+      },
+      {
+        "category_id": "454",
+        "parent_id": "72",
+        "category_name": "Dusting Powders"
+      },
+      {
+        "category_id": "455",
+        "parent_id": "72",
+        "category_name": "Men's",
+        "children": [
+          {
+            "category_id": "3025",
+            "parent_id": "455",
+            "category_name": "Body Sprays"
+          },
+          {
+            "category_id": "3866",
+            "parent_id": "455",
+            "category_name": "Cologne"
+          },
+          {
+            "category_id": "4742",
+            "parent_id": "455",
+            "category_name": "Eau de Parfum"
+          },
+          {
+            "category_id": "4744",
+            "parent_id": "455",
+            "category_name": "Eau de Toilette"
+          },
+          {
+            "category_id": "4746",
+            "parent_id": "455",
+            "category_name": "Eau Fraiche"
+          },
+          {
+            "category_id": "9385",
+            "parent_id": "455",
+            "category_name": "Sets"
+          }
+        ]
+      },
+      {
+        "category_id": "456",
+        "parent_id": "72",
+        "category_name": "Women's",
+        "children": [
+          {
+            "category_id": "3026",
+            "parent_id": "456",
+            "category_name": "Body Sprays"
+          },
+          {
+            "category_id": "3867",
+            "parent_id": "456",
+            "category_name": "Cologne"
+          },
+          {
+            "category_id": "4743",
+            "parent_id": "456",
+            "category_name": "Eau de Parfum"
+          },
+          {
+            "category_id": "4745",
+            "parent_id": "456",
+            "category_name": "Eau de Toilette"
+          },
+          {
+            "category_id": "4747",
+            "parent_id": "456",
+            "category_name": "Eau Fraiche"
+          },
+          {
+            "category_id": "9386",
+            "parent_id": "456",
+            "category_name": "Sets"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "74",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237368.png",
+    "category_name": "Hair Care",
+    "children": [
+      {
+        "category_id": "458",
+        "parent_id": "74",
+        "category_name": "Extensions, Wigs & Accessories",
+        "children": [
+          {
+            "category_id": "5888",
+            "parent_id": "458",
+            "category_name": "Hairpieces"
+          }
+        ]
+      },
+      {
+        "category_id": "459",
+        "parent_id": "74",
+        "category_name": "Hair & Scalp Treatments"
+      },
+      {
+        "category_id": "460",
+        "parent_id": "74",
+        "category_name": "Hair Accessories",
+        "children": [
+          {
+            "category_id": "4793",
+            "parent_id": "460",
+            "category_name": "Elastics & Ties"
+          },
+          {
+            "category_id": "5889",
+            "parent_id": "460",
+            "category_name": "Hair Pins"
+          },
+          {
+            "category_id": "5983",
+            "parent_id": "460",
+            "category_name": "Headbands"
+          }
+        ]
+      },
+      {
+        "category_id": "461",
+        "parent_id": "74",
+        "category_name": "Hair Coloring Products",
+        "children": [
+          {
+            "category_id": "5871",
+            "parent_id": "461",
+            "category_name": "Hair Color"
+          },
+          {
+            "category_id": "5885",
+            "parent_id": "461",
+            "category_name": "Hair Mascaras & Root Touch Ups"
+          }
+        ]
+      },
+      {
+        "category_id": "462",
+        "parent_id": "74",
+        "category_name": "Hair Cutting Tools",
+        "children": [
+          {
+            "category_id": "5869",
+            "parent_id": "462",
+            "category_name": "Hair Clippers & Accessories"
+          },
+          {
+            "category_id": "5875",
+            "parent_id": "462",
+            "category_name": "Hair Cutting Kits"
+          }
+        ]
+      },
+      {
+        "category_id": "463",
+        "parent_id": "74",
+        "category_name": "Hair Loss Products",
+        "children": [
+          {
+            "category_id": "5890",
+            "parent_id": "463",
+            "category_name": "Hair Regrowth Conditioners"
+          },
+          {
+            "category_id": "5891",
+            "parent_id": "463",
+            "category_name": "Hair Regrowth Shampoos"
+          },
+          {
+            "category_id": "5892",
+            "parent_id": "463",
+            "category_name": "Hair Regrowth Tonics"
+          },
+          {
+            "category_id": "5893",
+            "parent_id": "463",
+            "category_name": "Hair Regrowth Treatments"
+          }
+        ]
+      },
+      {
+        "category_id": "464",
+        "parent_id": "74",
+        "category_name": "Hair Masks"
+      },
+      {
+        "category_id": "466",
+        "parent_id": "74",
+        "category_name": "Hair Treatment Oils"
+      },
+      {
+        "category_id": "467",
+        "parent_id": "74",
+        "category_name": "Shampoo, Rinse & Conditioner",
+        "children": [
+          {
+            "category_id": "2012",
+            "parent_id": "467",
+            "category_name": "2-in-1 Shampoo & Conditioner"
+          },
+          {
+            "category_id": "2025",
+            "parent_id": "467",
+            "category_name": "3-in-1 Shampoo, Conditioner & Body Wash"
+          },
+          {
+            "category_id": "3977",
+            "parent_id": "467",
+            "category_name": "Conditioners"
+          },
+          {
+            "category_id": "4340",
+            "parent_id": "467",
+            "category_name": "Deep Conditioners"
+          },
+          {
+            "category_id": "4675",
+            "parent_id": "467",
+            "category_name": "Dry Shampoos"
+          },
+          {
+            "category_id": "9424",
+            "parent_id": "467",
+            "category_name": "Shampoo & Conditioner Sets"
+          },
+          {
+            "category_id": "9425",
+            "parent_id": "467",
+            "category_name": "Shampoos"
+          },
+          {
+            "category_id": "11406",
+            "parent_id": "467",
+            "category_name": "Rinse"
+          }
+        ]
+      },
+      {
+        "category_id": "468",
+        "parent_id": "74",
+        "category_name": "Styling Products",
+        "children": [
+          {
+            "category_id": "4405",
+            "parent_id": "468",
+            "category_name": "Detanglers"
+          },
+          {
+            "category_id": "5644",
+            "parent_id": "468",
+            "category_name": "Gels"
+          },
+          {
+            "category_id": "5899",
+            "parent_id": "468",
+            "category_name": "Hair Sprays"
+          },
+          {
+            "category_id": "7550",
+            "parent_id": "468",
+            "category_name": "Mousses & Foams"
+          },
+          {
+            "category_id": "8682",
+            "parent_id": "468",
+            "category_name": "Putties & Clays"
+          },
+          {
+            "category_id": "10062",
+            "parent_id": "468",
+            "category_name": "Styling Treatments"
+          }
+        ]
+      },
+      {
+        "category_id": "470",
+        "parent_id": "74",
+        "category_name": "Women's"
+      }
+    ]
+  },
+  {
+    "category_id": "76",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237328.png",
+    "category_name": "Makeup",
+    "children": [
+      {
+        "category_id": "484",
+        "parent_id": "76",
+        "category_name": "Body",
+        "children": [
+          {
+            "category_id": "3016",
+            "parent_id": "484",
+            "category_name": "Body Glitter"
+          }
+        ]
+      },
+      {
+        "category_id": "485",
+        "parent_id": "76",
+        "category_name": "Eyes",
+        "children": [
+          {
+            "category_id": "3971",
+            "parent_id": "485",
+            "category_name": "Concealer"
+          },
+          {
+            "category_id": "5064",
+            "parent_id": "485",
+            "category_name": "Eyebrow Color"
+          },
+          {
+            "category_id": "5068",
+            "parent_id": "485",
+            "category_name": "Eyeliner"
+          },
+          {
+            "category_id": "5072",
+            "parent_id": "485",
+            "category_name": "Eyeshadow"
+          },
+          {
+            "category_id": "5073",
+            "parent_id": "485",
+            "category_name": "Eyeshadow Bases & Primers"
+          },
+          {
+            "category_id": "6787",
+            "parent_id": "485",
+            "category_name": "Lash Enhancers & Primers"
+          },
+          {
+            "category_id": "6941",
+            "parent_id": "485",
+            "category_name": "Liner & Shadow Combinations"
+          },
+          {
+            "category_id": "7192",
+            "parent_id": "485",
+            "category_name": "Mascara"
+          }
+        ]
+      },
+      {
+        "category_id": "486",
+        "parent_id": "76",
+        "category_name": "Face",
+        "children": [
+          {
+            "category_id": "2978",
+            "parent_id": "486",
+            "category_name": "Blotting Paper"
+          },
+          {
+            "category_id": "2993",
+            "parent_id": "486",
+            "category_name": "Blush"
+          },
+          {
+            "category_id": "3171",
+            "parent_id": "486",
+            "category_name": "Bronzers & Highlighters"
+          },
+          {
+            "category_id": "3972",
+            "parent_id": "486",
+            "category_name": "Concealers & Neutralizers"
+          },
+          {
+            "category_id": "5451",
+            "parent_id": "486",
+            "category_name": "Foundation"
+          },
+          {
+            "category_id": "5452",
+            "parent_id": "486",
+            "category_name": "Foundation Primers"
+          },
+          {
+            "category_id": "8495",
+            "parent_id": "486",
+            "category_name": "Powder"
+          }
+        ]
+      },
+      {
+        "category_id": "487",
+        "parent_id": "76",
+        "category_name": "Lips",
+        "children": [
+          {
+            "category_id": "6959",
+            "parent_id": "487",
+            "category_name": "Lip Glosses"
+          },
+          {
+            "category_id": "6960",
+            "parent_id": "487",
+            "category_name": "Lip Liners"
+          },
+          {
+            "category_id": "6961",
+            "parent_id": "487",
+            "category_name": "Lip Plumpers"
+          },
+          {
+            "category_id": "6963",
+            "parent_id": "487",
+            "category_name": "Lip Stains"
+          },
+          {
+            "category_id": "6964",
+            "parent_id": "487",
+            "category_name": "Lipstick"
+          },
+          {
+            "category_id": "6965",
+            "parent_id": "487",
+            "category_name": "Lipstick Primers"
+          }
+        ]
+      },
+      {
+        "category_id": "488",
+        "parent_id": "76",
+        "category_name": "Makeup Palettes"
+      },
+      {
+        "category_id": "489",
+        "parent_id": "76",
+        "category_name": "Makeup Remover",
+        "children": [
+          {
+            "category_id": "5070",
+            "parent_id": "489",
+            "category_name": "Eyes"
+          },
+          {
+            "category_id": "5081",
+            "parent_id": "489",
+            "category_name": "Face"
+          },
+          {
+            "category_id": "6962",
+            "parent_id": "489",
+            "category_name": "Lips"
+          }
+        ]
+      },
+      {
+        "category_id": "490",
+        "parent_id": "76",
+        "category_name": "Makeup Sets"
+      },
+      {
+        "category_id": "491",
+        "parent_id": "76",
+        "category_name": "Styling Tools & Appliances"
+      }
+    ]
+  },
+  {
+    "category_id": "81",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237350.png",
+    "category_name": "Skin Care",
+    "children": [
+      {
+        "category_id": "533",
+        "parent_id": "81",
+        "category_name": "Body",
+        "children": [
+          {
+            "category_id": "3726",
+            "parent_id": "533",
+            "category_name": "Cleansers"
+          },
+          {
+            "category_id": "7489",
+            "parent_id": "533",
+            "category_name": "Body Moisturizers"
+          },
+          {
+            "category_id": "9293",
+            "parent_id": "533",
+            "category_name": "Scrubs & Body Treatments"
+          },
+          {
+            "category_id": "9389",
+            "parent_id": "533",
+            "category_name": "Sets & Kits"
+          }
+        ]
+      },
+      {
+        "category_id": "534",
+        "parent_id": "81",
+        "category_name": "Eyes",
+        "children": [
+          {
+            "category_id": "4168",
+            "parent_id": "534",
+            "category_name": "Creams"
+          },
+          {
+            "category_id": "5645",
+            "parent_id": "534",
+            "category_name": "Gels"
+          },
+          {
+            "category_id": "7195",
+            "parent_id": "534",
+            "category_name": "Masks"
+          },
+          {
+            "category_id": "9380",
+            "parent_id": "534",
+            "category_name": "Serums"
+          }
+        ]
+      },
+      {
+        "category_id": "535",
+        "parent_id": "81",
+        "category_name": "Face",
+        "children": [
+          {
+            "category_id": "3727",
+            "parent_id": "535",
+            "category_name": "Facial Cleansers"
+          },
+          {
+            "category_id": "4169",
+            "parent_id": "535",
+            "category_name": "Facial Creams & Moisturizers"
+          },
+          {
+            "category_id": "8412",
+            "parent_id": "535",
+            "category_name": "Polishes & Scrubs"
+          },
+          {
+            "category_id": "9390",
+            "parent_id": "535",
+            "category_name": "Sets & Kits"
+          },
+          {
+            "category_id": "10475",
+            "parent_id": "535",
+            "category_name": "Toners & Astringents"
+          },
+          {
+            "category_id": "10632",
+            "parent_id": "535",
+            "category_name": "Masks & Treatments"
+          },
+          {
+            "category_id": "11404",
+            "parent_id": "535",
+            "category_name": "Serum & Ampoule"
+          }
+        ]
+      },
+      {
+        "category_id": "536",
+        "parent_id": "81",
+        "category_name": "Lip Care",
+        "children": [
+          {
+            "category_id": "2673",
+            "parent_id": "536",
+            "category_name": "Balms & Moisturizers"
+          },
+          {
+            "category_id": "6957",
+            "parent_id": "536",
+            "category_name": "Lip Butters"
+          },
+          {
+            "category_id": "9292",
+            "parent_id": "536",
+            "category_name": "Scrubs"
+          }
+        ]
+      },
+      {
+        "category_id": "537",
+        "parent_id": "81",
+        "category_name": "Makeup Sets"
+      },
+      {
+        "category_id": "538",
+        "parent_id": "81",
+        "category_name": "Maternity"
+      },
+      {
+        "category_id": "539",
+        "parent_id": "81",
+        "category_name": "Sets & Kits"
+      },
+      {
+        "category_id": "540",
+        "parent_id": "81",
+        "category_name": "Sunscreen",
+        "children": [
+          {
+            "category_id": "10103",
+            "parent_id": "540",
+            "category_name": "Sunscreens"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category_id": "82",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237471.png",
+    "category_name": "Sports Nutrition",
+    "children": [
+      {
+        "category_id": "541",
+        "parent_id": "82",
+        "category_name": "Amino Acids",
+        "children": [
+          {
+            "category_id": "2129",
+            "parent_id": "541",
+            "category_name": "Acetyl-L-Carnitine"
+          },
+          {
+            "category_id": "2775",
+            "parent_id": "541",
+            "category_name": "BCAAs"
+          },
+          {
+            "category_id": "4170",
+            "parent_id": "541",
+            "category_name": "Creatine"
+          },
+          {
+            "category_id": "6890",
+            "parent_id": "541",
+            "category_name": "L-Glutamine"
+          }
+        ]
+      },
+      {
+        "category_id": "542",
+        "parent_id": "82",
+        "category_name": "Endurance & Energy",
+        "children": [
+          {
+            "category_id": "8499",
+            "parent_id": "542",
+            "category_name": "Powders"
+          },
+          {
+            "category_id": "10114",
+            "parent_id": "542",
+            "category_name": "Supplements"
+          }
+        ]
+      },
+      {
+        "category_id": "543",
+        "parent_id": "82",
+        "category_name": "Fat Burners & Thermogenics",
+        "children": [
+          {
+            "category_id": "3689",
+            "parent_id": "543",
+            "category_name": "CLA"
+          },
+          {
+            "category_id": "5148",
+            "parent_id": "543",
+            "category_name": "Fat Burners"
+          },
+          {
+            "category_id": "6830",
+            "parent_id": "543",
+            "category_name": "L-Carnitine"
+          }
+        ]
+      },
+      {
+        "category_id": "544",
+        "parent_id": "82",
+        "category_name": "Healthy Snacks & Beverages",
+        "children": [
+          {
+            "category_id": "3632",
+            "parent_id": "544",
+            "category_name": "Chocolate & Carob"
+          },
+          {
+            "category_id": "8651",
+            "parent_id": "544",
+            "category_name": "Pudding"
+          }
+        ]
+      },
+      {
+        "category_id": "548",
+        "parent_id": "82",
+        "category_name": "Post-Workout & Recovery"
+      },
+      {
+        "category_id": "549",
+        "parent_id": "82",
+        "category_name": "Pre-Workout",
+        "children": [
+          {
+            "category_id": "8500",
+            "parent_id": "549",
+            "category_name": "Powders"
+          }
+        ]
+      },
+      {
+        "category_id": "550",
+        "parent_id": "82",
+        "category_name": "Protein",
+        "children": [
+          {
+            "category_id": "8501",
+            "parent_id": "550",
+            "category_name": "Powders"
+          }
+        ]
+      },
+      {
+        "category_id": "551",
+        "parent_id": "82",
+        "category_name": "Testosterone Boosters"
+      },
+      {
+        "category_id": "552",
+        "parent_id": "82",
+        "category_name": "Weight Gainers"
+      }
+    ]
+  },
+  {
+    "category_id": "83",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237403.png",
+    "category_name": "Tools & Accessories",
+    "children": [
+      {
+        "category_id": "553",
+        "parent_id": "83",
+        "category_name": "Bags & Cases",
+        "children": [
+          {
+            "category_id": "4103",
+            "parent_id": "553",
+            "category_name": "Cosmetic Bags"
+          },
+          {
+            "category_id": "4105",
+            "parent_id": "553",
+            "category_name": "Cosmetic Display Cases"
+          },
+          {
+            "category_id": "8862",
+            "parent_id": "553",
+            "category_name": "Refillable Containers"
+          },
+          {
+            "category_id": "10469",
+            "parent_id": "553",
+            "category_name": "Toiletry Bags"
+          },
+          {
+            "category_id": "10471",
+            "parent_id": "553",
+            "category_name": "Toiletry Kits"
+          },
+          {
+            "category_id": "10561",
+            "parent_id": "553",
+            "category_name": "Train Cases"
+          },
+          {
+            "category_id": "10618",
+            "parent_id": "553",
+            "category_name": "Travel Cases"
+          }
+        ]
+      },
+      {
+        "category_id": "554",
+        "parent_id": "83",
+        "category_name": "Bathing Accessories",
+        "children": [
+          {
+            "category_id": "2736",
+            "parent_id": "554",
+            "category_name": "Bath & Body Brushes"
+          },
+          {
+            "category_id": "7019",
+            "parent_id": "554",
+            "category_name": "Loofahs"
+          },
+          {
+            "category_id": "9501",
+            "parent_id": "554",
+            "category_name": "Shower Caps"
+          }
+        ]
+      },
+      {
+        "category_id": "555",
+        "parent_id": "83",
+        "category_name": "Cotton Balls & Swabs",
+        "children": [
+          {
+            "category_id": "4117",
+            "parent_id": "555",
+            "category_name": "Cotton Balls"
+          },
+          {
+            "category_id": "4118",
+            "parent_id": "555",
+            "category_name": "Cotton Pads & Rounds"
+          },
+          {
+            "category_id": "4119",
+            "parent_id": "555",
+            "category_name": "Cotton Swabs"
+          }
+        ]
+      },
+      {
+        "category_id": "557",
+        "parent_id": "83",
+        "category_name": "Hair Styling Tools & Appliances",
+        "children": [
+          {
+            "category_id": "5874",
+            "parent_id": "557",
+            "category_name": "Hair Combs"
+          },
+          {
+            "category_id": "5879",
+            "parent_id": "557",
+            "category_name": "Hair Dryers & Accessories"
+          },
+          {
+            "category_id": "5897",
+            "parent_id": "557",
+            "category_name": "Hair Rollers"
+          }
+        ]
+      },
+      {
+        "category_id": "558",
+        "parent_id": "83",
+        "category_name": "Makeup Brushes & Tools",
+        "children": [
+          {
+            "category_id": "3179",
+            "parent_id": "558",
+            "category_name": "Brush Cleaners"
+          },
+          {
+            "category_id": "3188",
+            "parent_id": "558",
+            "category_name": "Brush Sets"
+          },
+          {
+            "category_id": "5063",
+            "parent_id": "558",
+            "category_name": "Eye"
+          },
+          {
+            "category_id": "5083",
+            "parent_id": "558",
+            "category_name": "Face"
+          },
+          {
+            "category_id": "7114",
+            "parent_id": "558",
+            "category_name": "Makeup Airbrushes"
+          }
+        ]
+      },
+      {
+        "category_id": "559",
+        "parent_id": "83",
+        "category_name": "Mirrors",
+        "children": [
+          {
+            "category_id": "3930",
+            "parent_id": "559",
+            "category_name": "Compact & Travel Mirrors"
+          },
+          {
+            "category_id": "7115",
+            "parent_id": "559",
+            "category_name": "Makeup Mirrors"
+          }
+        ]
+      },
+      {
+        "category_id": "561",
+        "parent_id": "83",
+        "category_name": "Shave & Hair Removal",
+        "children": [
+          {
+            "category_id": "7327",
+            "parent_id": "561",
+            "category_name": "Men's"
+          },
+          {
+            "category_id": "11251",
+            "parent_id": "561",
+            "category_name": "Women's"
+          }
+        ]
+      },
+      {
+        "category_id": "562",
+        "parent_id": "83",
+        "category_name": "Skin Care Tools",
+        "children": [
+          {
+            "category_id": "2950",
+            "parent_id": "562",
+            "category_name": "Blackhead & Blemish Removers"
+          },
+          {
+            "category_id": "5065",
+            "parent_id": "562",
+            "category_name": "Eyebrow Scissors"
+          },
+          {
+            "category_id": "5084",
+            "parent_id": "562",
+            "category_name": "Facial Cleansing Brushes"
+          },
+          {
+            "category_id": "7441",
+            "parent_id": "562",
+            "category_name": "Mirrors"
+          }
+        ]
+      },
+      {
+        "category_id": "11445",
+        "parent_id": "83",
+        "category_name": "Sports Equipment & Accessories"
+      }
+    ]
+  },
+  {
+    "category_id": "85",
+    "icon_url": "https://mayura.com.kh/pub/media/mobikulresized/144x144/categoryimages/icon/File-1612237456.png",
+    "category_name": "Dietary Supplements",
+    "children": [
+      {
+        "category_id": "569",
+        "parent_id": "85",
+        "category_name": "Herbal Supplements",
+        "children": [
+          {
+            "category_id": "3627",
+            "parent_id": "569",
+            "category_name": "Chlorophyll"
+          },
+          {
+            "category_id": "5707",
+            "parent_id": "569",
+            "category_name": "Ginger"
+          },
+          {
+            "category_id": "5709",
+            "parent_id": "569",
+            "category_name": "Ginkgo Biloba"
+          },
+          {
+            "category_id": "5710",
+            "parent_id": "569",
+            "category_name": "Ginseng"
+          },
+          {
+            "category_id": "5813",
+            "parent_id": "569",
+            "category_name": "Green Tea"
+          },
+          {
+            "category_id": "9837",
+            "parent_id": "569",
+            "category_name": "Spirulina"
+          }
+        ]
+      },
+      {
+        "category_id": "570",
+        "parent_id": "85",
+        "category_name": "Minerals",
+        "children": [
+          {
+            "category_id": "3302",
+            "parent_id": "570",
+            "category_name": "Calcium"
+          },
+          {
+            "category_id": "3842",
+            "parent_id": "570",
+            "category_name": "Collagen"
+          },
+          {
+            "category_id": "6512",
+            "parent_id": "570",
+            "category_name": "Iron"
+          },
+          {
+            "category_id": "7583",
+            "parent_id": "570",
+            "category_name": "Multiminerals"
+          },
+          {
+            "category_id": "11335",
+            "parent_id": "570",
+            "category_name": "Zinc"
+          }
+        ]
+      },
+      {
+        "category_id": "571",
+        "parent_id": "85",
+        "category_name": "Supplements",
+        "children": [
+          {
+            "category_id": "2331",
+            "parent_id": "571",
+            "category_name": "Amino Acids"
+          },
+          {
+            "category_id": "2400",
+            "parent_id": "571",
+            "category_name": "Antioxidants"
+          },
+          {
+            "category_id": "3642",
+            "parent_id": "571",
+            "category_name": "Chondroitin & Glucosamine"
+          },
+          {
+            "category_id": "4460",
+            "parent_id": "571",
+            "category_name": "Digestive Supplements"
+          },
+          {
+            "category_id": "4982",
+            "parent_id": "571",
+            "category_name": "Essential Fatty Acids"
+          },
+          {
+            "category_id": "5262",
+            "parent_id": "571",
+            "category_name": "Fish Oil"
+          },
+          {
+            "category_id": "9076",
+            "parent_id": "571",
+            "category_name": "Royal Jelly"
+          }
+        ]
+      },
+      {
+        "category_id": "572",
+        "parent_id": "85",
+        "category_name": "Vitamins",
+        "children": [
+          {
+            "category_id": "2966",
+            "parent_id": "572",
+            "category_name": "Blended Vitamin & Mineral Supplements"
+          },
+          {
+            "category_id": "7587",
+            "parent_id": "572",
+            "category_name": "Multivitamins"
+          },
+          {
+            "category_id": "8543",
+            "parent_id": "572",
+            "category_name": "Prenatal Vitamins"
+          },
+          {
+            "category_id": "10925",
+            "parent_id": "572",
+            "category_name": "Vitamin C"
+          },
+          {
+            "category_id": "10926",
+            "parent_id": "572",
+            "category_name": "Vitamin D"
+          },
+          {
+            "category_id": "10927",
+            "parent_id": "572",
+            "category_name": "Vitamin E"
+          }
+        ]
+      },
+      {
+        "category_id": "574",
+        "parent_id": "85",
+        "category_name": "Weight Loss",
+        "children": [
+          {
+            "category_id": "2416",
+            "parent_id": "574",
+            "category_name": "Appetite Control & Suppressants"
+          },
+          {
+            "category_id": "4409",
+            "parent_id": "574",
+            "category_name": "Detox & Cleanse"
+          },
+          {
+            "category_id": "10115",
+            "parent_id": "574",
+            "category_name": "Supplements"
+          }
+        ]
+      }
+    ]
+  }
+]

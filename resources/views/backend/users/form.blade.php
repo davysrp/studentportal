@@ -56,9 +56,9 @@
     </div>
     <div class="col-md-4">
         <div class="form-group">
-            {!! Form::label('rule_id','Rule') !!}
-            {!! Form::select('rule_id',$rules,null,['class'=>'form-control']) !!}
-            {!! $errors->first('rule_id', '<p class="help-block">:message</p>') !!}
+            {!! Form::label('role_id','Rule') !!}
+            {!! Form::select('role_id',$rules,null,['class'=>'form-control']) !!}
+            {!! $errors->first('role_id', '<p class="help-block">:message</p>') !!}
         </div>
     </div>
 </div>

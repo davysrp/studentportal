@@ -22,10 +22,11 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('admins', \App\Http\Controllers\UserContoller::class);
 Route::resource('rules', \App\Http\Controllers\RuleContoller::class);
+
 Route::resource('permissions', \App\Http\Controllers\PermissionContoller::class);
-
-
+Route::get('localization/{locale}',[\App\Http\Controllers\LocalizationController::class,'index']);
 Route::group(['middleware' => 'role:developer'], function () {
+
 
     Route::get('/getadmin', function () {
 
@@ -45,10 +46,11 @@ Route::get('/table/{name}', function ($name) {
     $validateMessage = '';
     $thead = '';
     $td = '';
-
+    $ruleField = '';
     foreach ($fields as $field) {
         if ($field != 'id' && $field != 'created_at' && $field != 'updated_at' && $field != 'deleted_at') {
-            $textField .= '"' . $field . '"' . ',';
+            $textField .= '"' . $field . '"' . ',' . PHP_EOL;
+            $ruleField .= ' "' . $field . '" => "required",' . PHP_EOL;
             $form .= ' <div class="col-md-6">
                         <div class="form-group {{ $errors->has("' . $field . '") ? "has-error" : "" }}">
                             {!! Form::label("' . $field . '") !!}
@@ -64,6 +66,7 @@ Route::get('/table/{name}', function ($name) {
                         required: "Please enter value in field  ' . \Illuminate\Support\Str::headline($field) . '",
                     },' . PHP_EOL;
 
+
             $thead .= "<th>" . \Illuminate\Support\Str::headline($field) . "</th>" . PHP_EOL;
             $td .= "{data: '" . $field . "', name: '" . $field . "'}," . PHP_EOL;
 
@@ -75,8 +78,7 @@ Route::get('/table/{name}', function ($name) {
     }
     $form .= '</div>';
 
-    $result = "protected $ fillable = [" . substr($textField, 0, -1) . " ];" . PHP_EOL;
-
+    $result = "protected $ fillable = [" . substr($textField, 0, -3) . " ];" . PHP_EOL . substr($ruleField, 0, -3) . PHP_EOL;
 
     $createForm = "@extends('layouts.adminapp')
                     @section('title','" . \Illuminate\Support\Str::headline($name) . "')
@@ -167,3 +169,55 @@ Route::get('/table/{name}', function ($name) {
     \Illuminate\Support\Facades\Storage::put($name . '/index.blade.php', $datatable, true);
 });
 
+
+Route::get('/getcat', function () {
+    $path_en = storage_path() . "/cat_en.json";
+    $path_kh = storage_path() . "/cat_kh.json";
+    $jsonEn = json_decode(file_get_contents($path_en), true);
+    $jsonKh = json_decode(file_get_contents($path_kh), true,);
+
+    $cateEnData = [];
+    $cateKhData = [];
+
+    return view('cat', compact('jsonKh'));
+/*    foreach ($jsonEn as $item) {
+        foreach ($item['children'] as $child) {
+
+            $cateEnData[] = $child['category_name'];
+        }
+    }
+    $i = 0;
+    foreach ($jsonKh as $itemKh) {
+        foreach ($itemKh['children'] as $childKh) {
+
+            $cateKhData[] = $childKh['category_name'].','.$cateEnData[$i++];
+        }
+    }*/
+
+//    \Illuminate\Support\Facades\Storage::put( '/child.txt', json_encode($cateKhData), true);
+
+    /*    $names = \Illuminate\Support\Facades\DB::table('names')->get();
+        $name__ ='';
+        $i = 1;
+        foreach ($names as $item) {
+            $name__ .= '{'.PHP_EOL;
+            $name__ .= '"category_attribute_set_id": 43,'.PHP_EOL;
+            $name__ .= '"position": '.$i++.','.PHP_EOL;
+            $name__ .= ' "url": "beauty",'.PHP_EOL;
+            $name__ .= '"level": 2,'.PHP_EOL;
+            $name__ .= ' "parent_id": 32,'.PHP_EOL;
+            $name__ .= '"attribute_id":[29,29],'.PHP_EOL;
+            $name__ .= '"banner":"'.$item->name_kh . '",'.PHP_EOL;
+            $name__ .= '"category_code":"'.$item->name_kh . '",'.PHP_EOL;
+            $name__ .= '"language":["en","kh"],'.PHP_EOL;
+            $name__ .= '"value":["'.$item->name_kh . '","' . $item->name.'"]'.PHP_EOL;
+            $name__ .= '}'.PHP_EOL;
+        }
+        \Illuminate\Support\Facades\Storage::put( '/names.txt', $name__, true);*/
+
+
+
+
+
+
+});

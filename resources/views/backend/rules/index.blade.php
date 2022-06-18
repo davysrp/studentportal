@@ -1,6 +1,6 @@
 @extends('layouts.adminapp')
-@section('title',"Rule")
-@section('card-title',"Rule")
+@section('title',"Role")
+@section('card-title',"Role")
 @section('create-route',route('rules.create'))
 @section('table')
     <table class="table table-hover">

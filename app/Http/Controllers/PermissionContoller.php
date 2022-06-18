@@ -12,6 +12,12 @@ use Yajra\DataTables\DataTables;
 
 class PermissionContoller extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -20,7 +26,7 @@ class PermissionContoller extends Controller
     public function index(Request $request)
     {
         if ($request->ajax()) {
-            $rules = Permission::select(['id', 'name']);
+            $rules = Permission::select(['id', 'name','slug']);
 
             return Datatables::of($rules)
                 ->addColumn('action', function ($user) {
@@ -108,6 +114,6 @@ class PermissionContoller extends Controller
         $dev_permission = Permission::where('slug','create-tasks')->first();
         $manager_permission = Permission::where('slug', 'edit-users')->first();
 
-       
+
     }
 }

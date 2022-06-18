@@ -8,11 +8,11 @@ $navs = [
         "child" => ""
     ],
     [
-        "label" => "User",
+        "label" => "Administration",
         "icon" => "far fa-user",
-        "route" => "",
+        "route" => "admins.index",
         "badge" => "",
-        "child" =>[
+        "child" => [
             [
                 "label" => "Admin",
                 "icon" => "",
@@ -20,7 +20,7 @@ $navs = [
                 "badge" => "",
             ],
             [
-                "label" => "Rule",
+                "label" => "Role",
                 "icon" => "",
                 "route" => "rules.index",
                 "badge" => "",
@@ -31,6 +31,14 @@ $navs = [
                 "route" => "permissions.index",
                 "badge" => "",
             ],
+        ]
+    ],
+    [
+        "label" => "User",
+        "icon" => "far fa-user",
+        "route" => "",
+        "badge" => "",
+        "child" => [
             [
                 "label" => "Student",
                 "icon" => "",
@@ -132,7 +140,7 @@ $navs = [
         "icon" => "fas fa-file-alt",
         "badge" => "",
         "route" => "",
-        "child" =>[
+        "child" => [
             [
                 "label" => "Mark",
                 "icon" => "",
@@ -170,13 +178,13 @@ $navs = [
                 "icon" => "",
                 "route" => "",
                 "badge" => "",
-            ] ,
+            ],
             [
                 "label" => "Expense Category",
                 "icon" => "",
                 "route" => "",
                 "badge" => "",
-            ] ,
+            ],
             [
                 "label" => "Expense Manager",
                 "icon" => "",
@@ -197,19 +205,66 @@ $navs = [
                 "icon" => "",
                 "route" => "",
                 "badge" => "",
-            ] ,
+            ],
             [
                 "label" => "Book issue report",
                 "icon" => "",
                 "route" => "",
                 "badge" => "",
-            ] ,
+            ],
             [
                 "label" => "Noteboard",
                 "icon" => "",
                 "route" => "",
                 "badge" => "",
             ]
+        ]
+
+    ],
+    [
+        "label" => "Post",
+        "icon" => "fas fa-newspaper",
+        "route" => "",
+        "badge" => "",
+        "child" => [
+            [
+                "label" => "Category",
+                "icon" => "",
+                "route" => "attributes.index",
+                "badge" => "",
+            ],
+            [
+                "label" => "Post",
+                "icon" => "",
+                "route" => "attribute-sets.index",
+                "badge" => "",
+            ],
+            [
+                "label" => "Post type",
+                "icon" => "",
+                "route" => "post-types.index",
+                "badge" => "",
+            ],
+        ]
+    ],
+    [
+        "label" => "Attribute",
+        "icon" => "fas fa-code-branch",
+        "route" => "",
+        "badge" => "",
+        "child" => [
+            [
+                "label" => "Attribute",
+                "icon" => "",
+                "route" => "attributes.index",
+                "badge" => "",
+            ],
+            [
+                "label" => "Attribute Set",
+                "icon" => "",
+                "route" => "attribute-sets.index",
+                "badge" => "",
+            ],
         ]
 
     ],
@@ -224,7 +279,8 @@ $navs = [
 ];
 
 use Illuminate\Support\Facades\Route;
-$route=Route::currentRouteName();
+
+$route = Route::currentRouteName();
 ?>
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -257,7 +313,8 @@ $route=Route::currentRouteName();
                 @foreach($navs as $nav)
                     @if($nav['child']=="")
                         <li class="nav-item ">
-                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif" class="nav-link @if($route==$nav['route']) active @endif">
+                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif"
+                               class="nav-link @if($route==$nav['route']) active @endif">
                                 <i class="nav-icon @if($nav['icon']!='' ) {!! $nav['icon'] !!} @else fas fa-th @endif"></i>
                                 <p>
                                     {!! $nav['label'] !!}
@@ -269,7 +326,8 @@ $route=Route::currentRouteName();
                         </li>
                     @else
                         <li class="nav-item has-treeview">
-                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif" class="nav-link">
+                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif"
+                               class="nav-link">
                                 <i class="nav-icon @if($nav['icon']!='' ) {!! $nav['icon'] !!} @else fas fa-th @endif"></i>
                                 <p>
                                     {!! $nav['label'] !!}
@@ -280,12 +338,13 @@ $route=Route::currentRouteName();
 
                                 @foreach($nav['child'] as $item)
                                     @if(is_array($item))
-                                    <li class="nav-item ">
-                                        <a href="@if (\Illuminate\Support\Facades\Route::has($item['route'])) {!! route($item['route']) !!} @else # @endif" class="nav-link @if($route==$item['route']) active @endif">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>{!! $item['label'] !!} </p>
-                                        </a>
-                                    </li>
+                                        <li class="nav-item ">
+                                            <a href="@if (\Illuminate\Support\Facades\Route::has($item['route'])) {!! route($item['route']) !!} @else # @endif"
+                                               class="nav-link @if($route==$item['route']) active @endif">
+                                                <i class="far fa-circle nav-icon"></i>
+                                                <p>{!! $item['label'] !!} </p>
+                                            </a>
+                                        </li>
                                     @endif
                                 @endforeach
                             </ul>

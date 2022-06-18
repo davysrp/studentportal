@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\RuleRequest;
 use App\Http\Requests\UserRequest;
-use App\Models\Rule;
+use App\Models\Role;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -20,7 +20,7 @@ class UserContoller extends Controller
     public function index(Request $request)
     {
         if ($request->ajax()) {
-            $users = User::with('rule')->select(['id', 'firstname','status','lastname','gender','phone','rule_id', 'email']);
+            $users = User::select(['id', 'firstname','status','lastname','gender','phone', 'email']);
 
             return Datatables::of($users)
                 ->addColumn('action', function ($user) {
@@ -28,9 +28,6 @@ class UserContoller extends Controller
                 })
                 ->addColumn('status', function ($user) {
                     return $this->statusAttr($user->status);
-                })
-                ->addColumn('rule', function ($user) {
-                    return $this->ruleLabel($user->rule->name);
                 })
                 ->editColumn('id', '{{$id}}')
                 ->escapeColumns([])
@@ -46,7 +43,7 @@ class UserContoller extends Controller
      */
     public function create()
     {
-        $rules = Rule::pluck('name','id');
+        $rules = Role::pluck('name','id');
         return view('backend.users.create',compact('rules'));
     }
 
@@ -58,7 +55,8 @@ class UserContoller extends Controller
      */
     public function store(UserRequest $request)
     {
-        User::create($request->all());
+        $user=User::create($request->all());
+        $user->roles()->sync($request->role_id);
         return redirect()->back()->with(['success' => 'Recode save successful']);
     }
 
@@ -83,7 +81,7 @@ class UserContoller extends Controller
     {
         $user = User::find($id);
         if ($user)
-            $rules = Rule::pluck('name','id');
+            $rules = Role::pluck('name','id');
             return view(parent::viewPath().'users.edit',compact('user','rules'));
 
         abort(404);
@@ -100,6 +98,7 @@ class UserContoller extends Controller
     {
         $user = User::findOrFail($id);
         $user->update($request->all());
+        $user->roles()->sync($request->role_id);
         return redirect()->to(route('admins.index'))->with('success','User updated successful') ;
     }
 
@@ -111,7 +110,10 @@ class UserContoller extends Controller
      */
     public function destroy($id)
     {
-        User::destroy($id);
+        $user=User::find($id);
+        if ($user)
+            $user->delete();
+            $user->roles()->detach();
         return redirect()->back()->with('success','User deleted successful') ;
     }
 }

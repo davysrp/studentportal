@@ -1,5 +1,5 @@
 @extends('layouts.adminapp')
-@section('title',"Admin")
+@section('title',"Role")
 @section('content')
     @include(
      'backend.libs.editForm',[
