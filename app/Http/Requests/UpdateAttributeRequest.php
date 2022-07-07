@@ -13,7 +13,7 @@ class UpdateAttributeRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,10 @@ class UpdateAttributeRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            "type" => "required",
+            "name" => "required",
+            "code" => "required",
+            "is_required" => "required"
         ];
     }
 }

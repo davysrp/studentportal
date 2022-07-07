@@ -23,7 +23,7 @@ class Controller extends BaseController
         $btn .= '<div class="btn-group btn-group-xs pull-right" role="group">';
         $btn .= '<a href="' . route($view, $model->id) . '" class="btn btn-sm btn-info"><i class="fa fa-eye"></i></a>';
         $btn .= '<a href="' . route($edit, $model->id) . '" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i></a>';
-        $btn .= '<button class="btn btn-sm btn-danger"  onclick="return confirm(&quot;Click Ok to delete Customer.&quot;)"><i class="fa fa-trash"></i></button>';
+        $btn .= '<button class="btn btn-sm btn-danger"  onclick="return confirm(&quot;Click Ok to delete .&quot;)"><i class="fa fa-trash"></i></button>';
         $btn .= '</div>';
         $btn .= '</form>';
         return $btn;

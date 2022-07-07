@@ -1,0 +1,6 @@
+protected $ fillable = ["name",
+"slug",
+"attribute_set_id" ];
+ "name" => "required",
+ "slug" => "required",
+ "attribute_set_id" => "required"

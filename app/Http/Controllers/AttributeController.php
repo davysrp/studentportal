@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Attribute;
 use App\Http\Requests\StoreAttributeRequest;
 use App\Http\Requests\UpdateAttributeRequest;
+use Illuminate\Http\Request;
+use Yajra\DataTables\DataTables;
 
 class AttributeController extends Controller
 {
@@ -13,9 +15,22 @@ class AttributeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
+
+        if ($request->ajax()) {
+        $attribute = Attribute::select(['id', 'type','name','is_required']);
+
+        return DataTables::of($attribute)
+            ->addColumn('action', function ($user) {
+                return $this->actionButton($user,'attributes.edit','attributes.destroy','attributes.show');
+            })
+            ->editColumn('id', '{{$id}}')
+            ->escapeColumns([])
+            ->make(true);
+    }
+        return view('backend.attributes.index');
+
     }
 
     /**
@@ -25,7 +40,7 @@ class AttributeController extends Controller
      */
     public function create()
     {
-        //
+        return view('backend.attributes.create');
     }
 
     /**
@@ -36,7 +51,8 @@ class AttributeController extends Controller
      */
     public function store(StoreAttributeRequest $request)
     {
-        //
+        Attribute::create($request->all());
+        return redirect()->back()->with('success', 'Attribute save successful!');
     }
 
     /**
@@ -58,7 +74,8 @@ class AttributeController extends Controller
      */
     public function edit(Attribute $attribute)
     {
-        //
+        $attribute = Attribute::find($attribute->id);
+        return view('backend.attributes.edit',compact('attribute'));
     }
 
     /**
@@ -70,7 +87,8 @@ class AttributeController extends Controller
      */
     public function update(UpdateAttributeRequest $request, Attribute $attribute)
     {
-        //
+        Attribute::find($attribute->id)->update($request->all());
+        return redirect()->back()->with('success', 'Attribute save successful!');
     }
 
     /**
@@ -81,6 +99,7 @@ class AttributeController extends Controller
      */
     public function destroy(Attribute $attribute)
     {
-        //
+        Attribute::destroy($attribute);
+        return redirect()->back()->with('success', 'Attribute delete successful!');
     }
 }

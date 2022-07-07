@@ -16,6 +16,7 @@ return new class extends Migration
         Schema::create('attribute_sets', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->string('name');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

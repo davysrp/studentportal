@@ -1,5 +1,19 @@
 <?php
-$navs = [
+$postTypes = \App\Models\PostType::all();
+
+$postTypeData = [];
+foreach ($postTypes as $item) {
+    $postTypeData[]=[
+        "label" => $item->name,
+        "icon" => "fas fa-tachometer-alt",
+        "route" => route('posts.index',['setId'=>$item->attribute_set_id,'typeId'=>$item->id,'type'=>$item->slug]),
+        "badge" => "",
+        "child" => ''
+    ];
+}
+
+$nav = [
+
     [
         "label" => "Dashboard",
         "icon" => "fas fa-tachometer-alt",
@@ -16,24 +30,24 @@ $navs = [
             [
                 "label" => "Admin",
                 "icon" => "",
-                "route" => "admins.index",
+                "route" => route('admins.index'),
                 "badge" => "",
             ],
             [
                 "label" => "Role",
                 "icon" => "",
-                "route" => "rules.index",
+                "route" => route("rules.index"),
                 "badge" => "",
             ],
             [
                 "label" => "Permission",
                 "icon" => "",
-                "route" => "permissions.index",
+                "route" => route("permissions.index"),
                 "badge" => "",
             ],
         ]
     ],
-    [
+/*    [
         "label" => "User",
         "icon" => "far fa-user",
         "route" => "",
@@ -42,7 +56,7 @@ $navs = [
             [
                 "label" => "Student",
                 "icon" => "",
-                "route" => "",
+                "route" => "student.index",
                 "badge" => "",
             ],
             [
@@ -104,7 +118,7 @@ $navs = [
             [
                 "label" => "Subject",
                 "icon" => "",
-                "route" => "",
+                "route" => "subject.index",
                 "badge" => "",
             ],
             [
@@ -116,7 +130,7 @@ $navs = [
             [
                 "label" => "Class Room",
                 "icon" => "",
-                "route" => "",
+                "route" => "class-room.index",
                 "badge" => "",
             ],
             [
@@ -220,7 +234,7 @@ $navs = [
             ]
         ]
 
-    ],
+    ],*/
     [
         "label" => "Post",
         "icon" => "fas fa-newspaper",
@@ -230,19 +244,19 @@ $navs = [
             [
                 "label" => "Category",
                 "icon" => "",
-                "route" => "attributes.index",
+                "route" => route("category.index"),
                 "badge" => "",
             ],
             [
                 "label" => "Post",
                 "icon" => "",
-                "route" => "attribute-sets.index",
+                "route" =>route("post.index"),
                 "badge" => "",
             ],
             [
                 "label" => "Post type",
                 "icon" => "",
-                "route" => "post-types.index",
+                "route" => route("post-types.index"),
                 "badge" => "",
             ],
         ]
@@ -253,16 +267,17 @@ $navs = [
         "route" => "",
         "badge" => "",
         "child" => [
+
             [
                 "label" => "Attribute",
                 "icon" => "",
-                "route" => "attributes.index",
+                "route" => route("attributes.index"),
                 "badge" => "",
             ],
             [
                 "label" => "Attribute Set",
                 "icon" => "",
-                "route" => "attribute-sets.index",
+                "route" => route("attribute-sets.index"),
                 "badge" => "",
             ],
         ]
@@ -271,13 +286,34 @@ $navs = [
     [
         "label" => "Setting",
         "icon" => "fas fa-cogs",
-        "route" => "",
-        "child" => "",
+        "route" => "setting.index",
+        "child" => [
+            [
+                "label" => "Languages",
+                "icon" => "",
+                "route" => route("languages.index"),
+                "badge" => "",
+            ],
+            [
+                "label" => "Label",
+                "icon" => "",
+                "route" => route("labels.index"),
+                "badge" => "",
+            ],
+            [
+                "label" => "Setting",
+                "icon" => "",
+                "route" => route("setting.index"),
+                "badge" => "",
+            ],
+        ],
         "badge" => "",
     ]
 
 ];
 
+
+$navs=array_merge($postTypeData,$nav);
 use Illuminate\Support\Facades\Route;
 
 $route = Route::currentRouteName();
@@ -313,7 +349,7 @@ $route = Route::currentRouteName();
                 @foreach($navs as $nav)
                     @if($nav['child']=="")
                         <li class="nav-item ">
-                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif"
+                            <a href="@if (!empty($nav['route'])) {!! $nav['route'] !!} @else # @endif"
                                class="nav-link @if($route==$nav['route']) active @endif">
                                 <i class="nav-icon @if($nav['icon']!='' ) {!! $nav['icon'] !!} @else fas fa-th @endif"></i>
                                 <p>
@@ -326,7 +362,7 @@ $route = Route::currentRouteName();
                         </li>
                     @else
                         <li class="nav-item has-treeview">
-                            <a href="@if (\Illuminate\Support\Facades\Route::has($nav['route'])) {!! route($nav['route']) !!} @else # @endif"
+                            <a href="@if (!empty($nav['route'])) {!! $nav['route'] !!} @else # @endif"
                                class="nav-link">
                                 <i class="nav-icon @if($nav['icon']!='' ) {!! $nav['icon'] !!} @else fas fa-th @endif"></i>
                                 <p>
@@ -339,7 +375,7 @@ $route = Route::currentRouteName();
                                 @foreach($nav['child'] as $item)
                                     @if(is_array($item))
                                         <li class="nav-item ">
-                                            <a href="@if (\Illuminate\Support\Facades\Route::has($item['route'])) {!! route($item['route']) !!} @else # @endif"
+                                            <a href="@if (!empty($item['route'])) {!! $item['route'] !!} @else # @endif"
                                                class="nav-link @if($route==$item['route']) active @endif">
                                                 <i class="far fa-circle nav-icon"></i>
                                                 <p>{!! $item['label'] !!} </p>

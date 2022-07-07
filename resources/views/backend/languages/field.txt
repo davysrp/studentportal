@@ -1,0 +1,4 @@
+protected $ fillable = ["name",
+"code" ];
+ "name" => "required",
+ "code" => "required"

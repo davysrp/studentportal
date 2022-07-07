@@ -11,7 +11,7 @@
         </div>
     </div>
     <div class="card-body">
-        {!! Form::model($model, [ 'route' => [$route, $model->id], 'method' => 'put' ]) !!}
+        {!! Form::model($model, [ 'route' => [$route, $model->id], 'method' => 'put','enctype'=>'multipart/form-data' ,'files'=>true]) !!}
         @include($form_path)
         <div class="row">
             <div class="col-md-12">

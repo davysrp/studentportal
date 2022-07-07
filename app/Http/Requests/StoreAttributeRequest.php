@@ -13,7 +13,7 @@ class StoreAttributeRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,10 @@ class StoreAttributeRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            "type" => "required",
+            "name" => "required",
+            "is_required" => "required",
+            "code" => "required"
         ];
     }
 }

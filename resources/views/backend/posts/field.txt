@@ -1,0 +1,16 @@
+protected $ fillable = ["post_type_id",
+"created_by",
+"name",
+"slug",
+"thumbnail",
+"status",
+"description",
+"images" ];
+ "post_type_id" => "required",
+ "created_by" => "required",
+ "name" => "required",
+ "slug" => "required",
+ "thumbnail" => "required",
+ "status" => "required",
+ "description" => "required",
+ "images" => "required"

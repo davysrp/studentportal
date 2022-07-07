@@ -22,8 +22,21 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('admins', \App\Http\Controllers\UserContoller::class);
 Route::resource('rules', \App\Http\Controllers\RuleContoller::class);
+Route::resource('attributes', \App\Http\Controllers\AttributeController::class);
+Route::resource('attribute-sets', \App\Http\Controllers\AttributeSetController::class);
 
 Route::resource('permissions', \App\Http\Controllers\PermissionContoller::class);
+Route::resource('students', \App\Http\Controllers\StudentController::class);
+Route::resource('subjects', \App\Http\Controllers\SubjectController::class);
+Route::resource('setting', \App\Http\Controllers\SettingController::class);
+Route::resource('categories', \App\Http\Controllers\CategoryController::class);
+Route::resource('posts', \App\Http\Controllers\PostController::class);
+Route::resource('post-types', \App\Http\Controllers\PostTypeController::class);
+Route::resource('language', \App\Http\Controllers\LanguageController::class);
+Route::resource('labels', \App\Http\Controllers\LabelController::class);
+Route::resource('languages', \App\Http\Controllers\LanguageController::class);
+Route::resource('category', \App\Http\Controllers\LanguageController::class);
+Route::resource('post', \App\Http\Controllers\PostController::class);
 Route::get('localization/{locale}',[\App\Http\Controllers\LocalizationController::class,'index']);
 Route::group(['middleware' => 'role:developer'], function () {
 
@@ -85,10 +98,10 @@ Route::get('/table/{name}', function ($name) {
                     @section('content')
                        @include(
                         'backend.libs.createForm',[
-                            'route'=>'" . $name . ".store',
+                            'route'=>'" . \Illuminate\Support\Str::slug($name) . ".store',
                             'model'=>null,
                             'title'=>'Create New',
-                            'form_path'=>'backend." . $name . ".form'
+                            'form_path'=>'backend." . \Illuminate\Support\Str::slug($name) . ".form'
                            ])
                     @endsection";
 
@@ -98,10 +111,10 @@ Route::get('/table/{name}', function ($name) {
                     @section('content')
                        @include(
                         'backend.libs.editForm',[
-                            'route'=>'" . $name . ".update',
+                            'route'=>'" . \Illuminate\Support\Str::slug($name) . ".update',
                             'model'=>$" . \Illuminate\Support\Str::singular($name) . ",
-                            'title'=>'Update " . \Illuminate\Support\Str::singular($name) . "',
-                            'form_path'=>'backend." . $name . ".form'
+                            'title'=>'Update "  . \Illuminate\Support\Str::headline($name)  . "',
+                            'form_path'=>'backend." . \Illuminate\Support\Str::slug($name) . ".form'
                            ])
                     @endsection";
 
@@ -136,12 +149,13 @@ Route::get('/table/{name}', function ($name) {
     $datatable = '@extends("layouts.adminapp")
 @section("title","' . \Illuminate\Support\Str::headline($name) . '")
 @section("card-title","' . \Illuminate\Support\Str::headline($name) . '")
-@section("create-route",route("' . $name . '.create"))
+@section("create-route",route("' . \Illuminate\Support\Str::slug($name) . '.create"))
 @section("table")
     <table class="table table-hover">
         <thead>
         <tr>
             ' . $thead . '
+            <th>Action</th>
         </tr>
         </thead>
     </table>
@@ -152,7 +166,7 @@ Route::get('/table/{name}', function ($name) {
             $("table").dataTable({
                 processing: true,
                 serverSide: true,
-                ajax: "{!! route("' . $name . '.index") !!}" ,
+                ajax: "{!! route("' . \Illuminate\Support\Str::slug($name) . '.index") !!}" ,
                 columns: [
                     ' . $td . '
                     {data: "action", name: "action", orderable: false, searchable: false}
@@ -162,11 +176,11 @@ Route::get('/table/{name}', function ($name) {
     </script>
 @endsection';
 
-    \Illuminate\Support\Facades\Storage::put($name . '/field.txt', $result, true);
-    \Illuminate\Support\Facades\Storage::put($name . '/form.blade.php', $form . $jsValidate, true);
-    \Illuminate\Support\Facades\Storage::put($name . '/create.blade.php', $createForm, true);
-    \Illuminate\Support\Facades\Storage::put($name . '/edit.blade.php', $editForm, true);
-    \Illuminate\Support\Facades\Storage::put($name . '/index.blade.php', $datatable, true);
+    \Illuminate\Support\Facades\Storage::put(\Illuminate\Support\Str::slug($name) . '/field.txt', $result, true);
+    \Illuminate\Support\Facades\Storage::put(\Illuminate\Support\Str::slug($name) . '/form.blade.php', $form . $jsValidate, true);
+    \Illuminate\Support\Facades\Storage::put(\Illuminate\Support\Str::slug($name) . '/create.blade.php', $createForm, true);
+    \Illuminate\Support\Facades\Storage::put(\Illuminate\Support\Str::slug($name) . '/edit.blade.php', $editForm, true);
+    \Illuminate\Support\Facades\Storage::put(\Illuminate\Support\Str::slug($name) . '/index.blade.php', $datatable, true);
 });
 
 

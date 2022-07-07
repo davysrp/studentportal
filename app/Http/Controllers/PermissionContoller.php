@@ -109,11 +109,4 @@ class PermissionContoller extends Controller
         return redirect()->back()->with('success', 'Permission delete successful!');
     }
 
-    public function Permission()
-    {
-        $dev_permission = Permission::where('slug','create-tasks')->first();
-        $manager_permission = Permission::where('slug', 'edit-users')->first();
-
-
-    }
 }
